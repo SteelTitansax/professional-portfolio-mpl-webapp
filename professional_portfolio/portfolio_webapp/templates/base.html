@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="shortcut icon" href="img/porfolio_icon.png">
+    <link rel="shortcut icon" href="">
     <title>Manuel Portero</title>
 </head>
 <body>
@@ -26,23 +26,58 @@
                 <a class="nav-item nav-link" href="#">About</a>
                 <a class="nav-item nav-link" href="#">Contact</a>
                 <a class="nav-item nav-link" href="#">Github</a>
-                <a class="nav-item nav-link" href="#">Game Presentation</a>
             </div>
         </nav>
 
-
-        <h4 class="text-center mb-3 mt-3"><bold>Portfolios</bold></h4>
-        <div class="experience-section container bg-white p-3 rounded">
+        <h4 class="text-center mb-4 mt-4"><bold>Portfolios</bold></h4>
+        <div class="experience-section container bg-white p-2 rounded">
             <div class="row">
-
-                
+                <div class="col-3 mb-3">
+                    <div class="portfolio-item">  
+                       <img width="33%" class="mt-3" data-bs-toggle="tooltip" title="Full Stack Developer" src="{% static 'img/fullstack_portfolio.jpg' %}"/>
+                    </div>
+                </div>
+                <div class="col-3 mb-3">
+                    <div class="portfolio-item">
+                        <img width="33%" style="margin-top: 13px;"  data-bs-toggle="tooltip" title="DPA Developer" src="{% static 'img/rpa_portfolio.jpg' %}"/>
+                    </div>
+                </div><div class="col-3 mb-3">
+                    <div class="portfolio-item">
+                        <img width="33%" style="margin-top: 13px;" data-bs-toggle="tooltip" title="Machine Learning Developer" src="{% static 'img/machine_learning.jpg' %}"/>
+                    </div>
+                </div><div class="col-3 mb-3">
+                    <div class="portfolio-item">
+                        <img width="35%" style="margin-top: 11px;" data-bs-toggle="tooltip" title="Industry 4.0" src="{% static 'img/Industry40.jpg' %}"/>
+                    </div>
+                </div>
             </div>
         </div>    
 
-        <h4 class="text-center mb-3 mt-3"><bold>Curriculum Vitae</bold></h4>
-        <div class="experience-section container bg-white p-3 rounded">
+        <h4 class="text-center mb-4 mt-4"><bold>Curriculum Vitae</bold></h4>
+        <div class="experience-section container bg-white p-2 rounded">
             <div class="row">
-
+                
+                <div class="col-3 mb-3">
+                    <div class="cv-item">
+                        <img width="25%" style="margin-top: 13px;"  data-bs-toggle="tooltip" title="CV English" src="{% static 'img/english_resume_logo_uk.jpg' %}"/>
+                    </div>
+                </div>
+                <div class="col-3 mb-3">
+                    <div class="cv-item">
+                        <img width="35%" style="margin-top: 13px;"  data-bs-toggle="tooltip" title="Game PortFolio Spanish" src="{% static 'img/game_presentation_logo_uk.png' %}"/>
+                    </div>
+                </div>
+                <div class="col-3 mb-3">
+                    <div class="cv-item">
+                        <img width="25%" style="margin-top: 13px;"  data-bs-toggle="tooltip" title="CV Spanish" src="{% static 'img/english_resume_logo_spanish.jpg' %}"/>
+                    </div>
+                </div>
+                <div class="col-3 mb-3">
+                    <div class="cv-item">
+                        <img width="35%" style="margin-top: 11px;"  data-bs-toggle="tooltip" title="FullStack PortFolio" src="{% static 'img/game_presentation_logo_spanish.png' %}"/>
+                    </div>
+                </div>
+                
                 
             </div>
         </div>    
@@ -52,17 +87,14 @@
         
     </div>
 
-
-        
-    
     <style>
         body {
             display: flex;
             margin: 0;
             height: 100vh;
         }
+        
         .text-body-primary {
-
             color: #E53935;
         }
         
@@ -97,39 +129,18 @@
             text-justify: inter-word;
         }
         .navbar-nav {
-            margin-left: 3%;
+            margin-left: 9%;
             overflow: hidden;
             position: fixed;
             bottom: 0;
             width: 100%;
             margin-bottom: 3%;
-            
         }
         
         .navbar-expand-lg .navbar-nav .nav-link {
             color:white;
         }
-        
-        <!--Education-->
 
-        .education-section {
-            font-size: 14px;
-        }
-        .education-title {
-            font-size: 14px;
-            font-weight: bold;
-        }
-        .education-subtitle {
-            font-size: 11px;
-            color: #666;
-        }
-        .education-icon {
-            font-size: 27px;
-            color: #333;
-        }
-
-        <!--Experience-->
-        
         .experience-section {
             font-size: 14px;
         }
@@ -170,7 +181,20 @@
             overflow-y: auto;
         }
         .rounded{
-            border-radius:200px!important;
+            border-radius:20px!important;
+        }
+
+        .portfolio-item, .cv-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #ffffff; 
+            height: 40px; 
+        }
+
+        .portfolio-item img, .cv-item img {
+            max-height: 100%;
+            max-width: 100%;
         }
     </style>
 
