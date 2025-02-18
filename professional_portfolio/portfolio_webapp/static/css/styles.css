@@ -48,13 +48,14 @@ body {
 }
 
 .navbar-nav {
-    margin-left: 3%;
+    margin-left: 10%;
     overflow: hidden;
     position: fixed;
     bottom: 0;
     width: 100%;
     margin-bottom: 3%;
-}
+    font-size: 20px;
+  }
 
 .navbar-expand-lg .navbar-nav .nav-link {
     color:white;
@@ -160,4 +161,9 @@ body {
 
 .rounded {
     border-radius: 100px!important;
+}
+
+.navbar-icons
+{
+    width :60px !important;
 }
