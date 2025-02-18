@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="shortcut icon" href="{% static 'img/porfolio_icon.png' %}">
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
     <title>Manuel Portero</title>
 </head>
 <body>
@@ -131,19 +132,7 @@
         {% endblock %}
     </div>
 
-
-        
+    <script src="{% static 'js/script.js' %}"></script>
     
-
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
-            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-                return new bootstrap.Tooltip(tooltipTriggerEl);
-            });
-        });
-    </script>
-
 </body>
 </html>
