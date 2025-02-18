@@ -1,11 +1,11 @@
-<!--Base Html-->
+/* General style*/
 body {
     display: flex;
     margin: 0;
     height: 100vh;
 }
-.text-body-primary {
 
+.text-body-primary {
     color: #E53935;
 }
 
@@ -18,27 +18,35 @@ body {
     width: 35%;
     color: white;
 }
+
 .profile-image {
     width: 30%; 
     border-radius: 100px!important;
     margin-left: 35%;
 }
+
 .title {
     margin-top: 25px;
     color: #fafafa;
     text-align: center;
 }
+
 .subtitle {
     margin-top: 5px;
     text-align: center;
     color: #dfdfdf !important;
+    font-size: 24px;
 }
+
 .text-body {
     margin-top: 25px;
     color: #dfdfdf !important;
     text-align: justify;
     text-justify: inter-word;
+    font-size: 20px;
+
 }
+
 .navbar-nav {
     margin-left: 3%;
     overflow: hidden;
@@ -46,55 +54,38 @@ body {
     bottom: 0;
     width: 100%;
     margin-bottom: 3%;
-    
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
     color:white;
 }
 
-<!--Education-->
-
-.education-section {
-    font-size: 14px;
-}
-.education-title {
-    font-size: 14px;
-    font-weight: bold;
-}
-.education-subtitle {
-    font-size: 11px;
-    color: #666;
-}
-.education-icon {
-    font-size: 27px;
-    color: #333;
-}
-
-<!--Experience-->
-
+/* Sección de Experiencia */
 .experience-section {
-    font-size: 14px;
+    font-size: 24px;
+    max-width: 85%; 
+    margin: auto; /* Centrar contenido */
 }
+
 .experience-title {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
 }
 
 .experience-subtitle {
-    font-size: 18px;
+    font-size: 22px;
     color: #666;
     font-weight:500px;
 }
 
 .experience-date {
-    font-size: 14px;
+    font-size: 20px;
     color: #666;
     font-weight: bold;
 }
 
 .experience-body {
-    font-size: 14px;
+    font-size: 18px;
     color: #666;
     text-align: justify;
     text-justify: inter-word;     
@@ -105,6 +96,56 @@ body {
     color: #333;
 }
 
+/* Ajustar columnas de experiencia */
+.experience-section .col-md-6 {
+    flex: 0 0 48%;
+    max-width: 48%;
+
+}
+
+.experience-section
+{
+    padding-left: 60px;
+}
+
+/* Sección de Educación */
+.education-section {
+    font-size: 14px;
+    max-width: 85%; /* Asegurar que ocupe casi todo el ancho */
+    margin: auto; /* Centrar contenido */
+}
+
+.education-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.education-subtitle {
+    font-size: 14px;
+    color: #666;
+}
+
+.education-icon {
+    font-size: 38px;
+    color: #333;
+}
+
+/* Ajustar columnas de educación */
+.education-section .col-md-2 {
+    flex: 0 0 16%;
+    max-width: 16%;
+}
+
+/* Ajustar tamaño de las imágenes */
+.experience-section img {
+    width: 25%;
+}
+
+.education-section img {
+    width: 20%;
+}
+
+/* Ajustes generales para el right-body */
 .right-body {
     position: absolute;
     top: 0;
@@ -116,6 +157,7 @@ body {
     color: #212329;
     overflow-y: auto;
 }
-.rounded{
-    border-radius:100px!important;
+
+.rounded {
+    border-radius: 100px!important;
 }

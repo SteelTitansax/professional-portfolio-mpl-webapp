@@ -3,7 +3,8 @@
 
 {% block content %}
 
-<div class="experience-section container bg-white pt-5 rounded">
+<h4 class="text-center mb-3"><bold>Experience</bold></h4>
+<div class="experience-section container bg-white pt-5 ml-2 mb-4 rounded">
     <div class="row">
         <div class="col-md-6 text-center mb-3">
             <h5 class="experience-title">DS/Automation Specialist</h5>
@@ -39,8 +40,7 @@
     </div>
 </div>
 
-<br/>
-<br/>
+<h4 class="text-center mt-4 mb-4"><bold>Education</bold></h4>
 <div class="education-section container bg-white pt-4 pb-4 rounded">
     <div class="row">
         <div class="col-md-2 text-center mb-3">
@@ -74,6 +74,21 @@
             <i class="fas fa-database education-icon" data-bs-toggle="tooltip" title="Check project"></i>
         </div>
     </div>
-</div>     
+</div>   
+
+<h4 class="text-center mb-4 mt-4"><bold>Hobbies</bold></h4>
+<div class="education-section container bg-white  rounded">
+    <div class="row">
+        <div class="col-md-4 text-center mb-2">
+            <img width="10%" class="pt-4" data-bs-toggle="tooltip" title="Check company" src="{% static 'img/arduino_logo.png' %}"/>
+        </div>
+        <div class="col-md-4 text-center mb-2">
+            <img width="10%" class="pt-1" data-bs-toggle="tooltip" title="Check company" src="{% static 'img/3d_printing_logo.jpg' %}"/>
+        </div>
+        <div class="col-md-4 text-center mb-2">
+            <img width="10%" class="pt-3" data-bs-toggle="tooltip" title="Check company" src="{% static 'img/languages_logo.jpg' %}"/>
+        </div>
+    </div>
+</div>   
 
 {% endblock %}
