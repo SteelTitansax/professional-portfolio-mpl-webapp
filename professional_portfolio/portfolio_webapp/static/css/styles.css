@@ -1,0 +1,121 @@
+<!--Base Html-->
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+}
+.text-body-primary {
+
+    color: #E53935;
+}
+
+.left-navbar {
+    background-color: #212329;
+    height: 100vh;
+    padding: 40px;
+    position: sticky;
+    top: 0;
+    width: 35%;
+    color: white;
+}
+.profile-image {
+    width: 30%; 
+    border-radius: 100px!important;
+    margin-left: 35%;
+}
+.title {
+    margin-top: 25px;
+    color: #fafafa;
+    text-align: center;
+}
+.subtitle {
+    margin-top: 5px;
+    text-align: center;
+    color: #dfdfdf !important;
+}
+.text-body {
+    margin-top: 25px;
+    color: #dfdfdf !important;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.navbar-nav {
+    margin-left: 3%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 3%;
+    
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color:white;
+}
+
+<!--Education-->
+
+.education-section {
+    font-size: 14px;
+}
+.education-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+.education-subtitle {
+    font-size: 11px;
+    color: #666;
+}
+.education-icon {
+    font-size: 27px;
+    color: #333;
+}
+
+<!--Experience-->
+
+.experience-section {
+    font-size: 14px;
+}
+.experience-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.experience-subtitle {
+    font-size: 18px;
+    color: #666;
+    font-weight:500px;
+}
+
+.experience-date {
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+}
+
+.experience-body {
+    font-size: 14px;
+    color: #666;
+    text-align: justify;
+    text-justify: inter-word;     
+}
+
+.experience-icon {
+    font-size: 27px;
+    color: #333;
+}
+
+.right-body {
+    position: absolute;
+    top: 0;
+    left: 35%; 
+    width: 65%; 
+    height: 100vh;
+    padding: 40px;
+    background-color: #f5f5f5;
+    color: #212329;
+    overflow-y: auto;
+}
+.rounded{
+    border-radius:100px!important;
+}
