@@ -50,7 +50,7 @@ body {
 }
 
 .navbar-nav {
-    margin-left: 10%;
+    margin-left: 12%;
     overflow: hidden;
     position: fixed;
     bottom: 0;
@@ -94,9 +94,8 @@ body {
     text-justify: inter-word;     
 }
 
-.experience-icon {
-    font-size: 27px;
-    color: #333;
+.experience-image {
+   width : 30px;
 }
 
 /* Ajustar columnas de experiencia */
