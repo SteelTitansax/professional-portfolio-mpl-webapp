@@ -130,4 +130,4 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-X_FRAME_OPTIONS = 'SAMEORIGIN'  
+X_FRAME_OPTIONS = 'https://www.youtube.com/'  
