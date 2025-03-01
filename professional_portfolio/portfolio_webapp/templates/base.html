@@ -35,23 +35,11 @@
         <h4 class="text-center mb-3 mt-3"><bold>Portfolios</bold></h4>
         <div class="experience-section container bg-white p-3 rounded">
             <div class="row">
-
-                <div class="col-md-3 text-center">
-                    <img class="navbar-icons" class="pt-4" data-bs-toggle="tooltip" title="Fullstack Developer" src="{% static 'img/fullstack_portfolio.jpg' %}"/>
-                </div>
-
-                <div class="col-md-3 text-center">
-                    <img class="navbar-icons"  class="pt-4" data-bs-toggle="tooltip" title="RPA Developer" src="{% static 'img/rpa_portfolio.jpg' %}"/>
-                </div>
-
-                <div class="col-md-3 text-center">
-                    <img class="navbar-icons" class="pt-4" data-bs-toggle="tooltip" title="ML Developer" src="{% static 'img/machine_learning.jpg' %}"/>
-                </div>
-
-                <div class="col-md-3 text-center">
-                    <img class="navbar-icons"  data-bs-toggle="tooltip" title="Indutry 4.0" src="{% static 'img/Industry40.jpg' %}"/>
-                </div>
-                
+                {% for item in sections.portfolios.portfolios %}
+                    <div class="col-md-3 text-center">
+                        <img class="navbar-icons" data-bs-toggle="tooltip" title="{{ item.tooltip }}" src="{{ item.image }}"/>
+                    </div>
+                {% endfor %}                
             </div>
         </div>    
 
@@ -59,22 +47,11 @@
         <div class="experience-section container bg-white p-3 rounded">
             <div class="row">
                 <div class="row">
-
-                    <div class="col-md-3 text-center">
-                        <img class="navbar-icons" data-bs-toggle="tooltip" title="Check resume" src="{% static 'img/english_resume_logo_spanish.jpg' %}"/>
-                    </div>
-                    <div class="col-md-3 text-center">
-                        <img class="navbar-icons"  data-bs-toggle="tooltip" title="Check game presentation" src="{% static 'img/english_resume_logo_uk.jpg' %}"/>
-                    </div>
-
-
-                    <div class="col-md-3 text-center">
-                        <img class="navbar-icons" data-bs-toggle="tooltip" title="Check resume" src="{% static 'img/english_resume_logo_spanish.jpg' %}"/>
-                    </div>
-                    <div class="col-md-3 text-center">
-                        <img class="navbar-icons" data-bs-toggle="tooltip" title="Check game presentation" src="{% static 'img/english_resume_logo_uk.jpg' %}"/>
-                    </div>
-
+                    {% for item in sections.curriculum.curriculum %}
+                        <div class="col-md-3 text-center">
+                            <img class="navbar-icons" data-bs-toggle="tooltip" title="{{ item.tooltip }}" src="{{ item.image }}"/>
+                        </div>
+                    {% endfor %}
                 </div>
                 
             </div>
@@ -83,36 +60,13 @@
         <h4 class="text-center mt-4 mb-4"><bold>Education</bold></h4>
         <div class="education-section container bg-white pt-4 pb-4 rounded">
             <div class="row">
-                <div class="col-md-4 text-center mb-3">
-                    <h5 class="education-title">BH Chemical Eng.</h5>
-                    <p class="education-subtitle">UAB University</p>
-                    <i class="fas fa-flask education-icon" data-bs-toggle="tooltip" title="Check project"></i>
-                </div>
-                <div class="col-md-4 text-center mb-3">
-                    <h5 class="education-title">Master-H&Safety</h5>
-                    <p class="education-subtitle"> C. San Pablo University</p>
-                    <i class="fas fa-shield-alt education-icon" data-bs-toggle="tooltip" title="Check project"></i>
-                </div>
-                <div class="col-md-4 text-center mb-3">
-                    <h5 class="education-title">HNC Web Development</h5>
-                    <p class="education-subtitle">Glasgow Kelvin College</p>
-                    <i class="fas fa-code education-icon" data-bs-toggle="tooltip" title="Check project"></i>
-                </div>
-                <div class="col-md-4 text-center mb-3">
-                    <h5 class="education-title">Bach. Computer Science</h5>
-                    <p class="education-subtitle">IOC College</p>
-                    <i class="fas fa-laptop education-icon" data-bs-toggle="tooltip" title="Check project"></i>
-                </div>
-                <div class="col-md-4 text-center mb-3">
-                    <h5 class="education-title">Machine Learning</h5>
-                    <p class="education-subtitle">European fundings Ed.</p>
-                    <i class="fas fa-robot education-icon" data-bs-toggle="tooltip" title="Check project"></i>
-                </div>
-                <div class="col-md-4 text-center mb-3">
-                    <h5 class="education-title">Big Data</h5>
-                    <p class="education-subtitle">Barcelona Activa</p>
-                    <i class="fas fa-database education-icon" data-bs-toggle="tooltip" title="Check project"></i>
-                </div>
+                {% for item in sections.education.education %}
+                    <div class="col-md-4 text-center mb-3">
+                        <h5 class="education-title">{{ item.tittle }}</h5>
+                        <p class="education-subtitle">{{ item.institution }}</p>
+                        <i class="{{ item.icono }} education-icon" data-bs-toggle="tooltip" title="{{ item.tooltip }}"></i>
+                    </div>
+                {% endfor %}
             </div>
         </div>   
 

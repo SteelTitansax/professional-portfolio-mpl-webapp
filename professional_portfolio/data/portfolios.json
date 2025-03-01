@@ -1,0 +1,20 @@
+{
+    "portfolios": [
+        {
+            "image": "static/img/fullstack_portfolio.jpg",
+            "tooltip": "Fullstack Developer"
+        },
+        {
+            "image": "static/img/rpa_portfolio.jpg",
+            "tooltip": "RPA Developer"
+        },
+        {
+            "image": "static/img/machine_learning.jpg",
+            "tooltip": "ML Developer"
+        },
+        {
+            "image": "static/img/Industry40.jpg",
+            "tooltip": "Industry 4.0"
+        }
+    ]
+}

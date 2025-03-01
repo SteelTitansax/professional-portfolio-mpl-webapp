@@ -1,0 +1,41 @@
+{
+    "education": [
+        {
+            "tittle": "BH Chemical Eng.",
+            "institution": "UAB University",
+            "icon": "fas fa-flask",
+            "tooltip": "Check project"
+        },
+        {
+            "tittle": "Master-H&Safety",
+            "institution": "C. San Pablo University",
+            "icon": "fas fa-shield-alt",
+            "tooltip": "Check project"
+        },
+        {
+            "tittle": "HNC Web Development",
+            "institution": "Glasgow Kelvin College",
+            "icon": "fas fa-code",
+            "tooltip": "Check project"
+        },
+        {
+            "tittle": "Bach. Computer Science",
+            "institution": "IOC College",
+            "icon": "fas fa-laptop",
+            "tooltip": "Check project"
+        },
+        {
+            "tittle": "Machine Learning",
+            "institution": "European fundings Ed.",
+            "icon": "fas fa-robot",
+            "tooltip": "Check project"
+        },
+        {
+            "tittle": "Big Data",
+            "institution": "Barcelona Activa",
+            "icon": "fas fa-database",
+            "tooltip": "Check project"
+        }
+    ]
+    
+}

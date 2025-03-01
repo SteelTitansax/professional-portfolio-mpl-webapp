@@ -1,0 +1,20 @@
+{
+    "curriculum": [
+        {
+            "image": "static/img/english_resume_logo_spanish.jpg",
+            "tooltip": "Check resume"
+        },
+        {
+            "image": "static/img/english_resume_logo_uk.jpg",
+            "tooltip": "Check game presentation"
+        },
+        {
+            "image": "static/img/english_resume_logo_spanish.jpg",
+            "tooltip": "Check resume"
+        },
+        {
+            "image": "static/img/english_resume_logo_uk.jpg",
+            "tooltip": "Check game presentation"
+        }
+    ]
+}
