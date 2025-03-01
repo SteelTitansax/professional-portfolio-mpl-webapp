@@ -4,7 +4,8 @@
             "tittle": "BH Chemical Eng.",
             "institution": "UAB University",
             "icon": "fas fa-flask",
-            "tooltip": "Check project"
+            "tooltip": "Check project",
+            "url": "https://www.uab.cat/ca/enginyeria"
         },
         {
             "tittle": "Master-H&Safety",

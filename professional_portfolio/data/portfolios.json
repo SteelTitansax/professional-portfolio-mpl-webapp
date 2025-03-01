@@ -2,19 +2,24 @@
     "portfolios": [
         {
             "image": "static/img/fullstack_portfolio.jpg",
-            "tooltip": "Fullstack Developer"
+            "tooltip": "Fullstack Developer",
+            "url": "fullstack-portfolio"
         },
         {
             "image": "static/img/rpa_portfolio.jpg",
-            "tooltip": "RPA Developer"
+            "tooltip": "RPA Developer",
+            "url": "rpa-portfolio"
+
         },
         {
             "image": "static/img/machine_learning.jpg",
-            "tooltip": "ML Developer"
+            "tooltip": "ML Developer",
+            "url": "ml-portfolio"
         },
         {
             "image": "static/img/Industry40.jpg",
-            "tooltip": "Industry 4.0"
+            "tooltip": "Industry 4.0",
+            "url": "industry40-portfolio"
         }
     ]
 }
