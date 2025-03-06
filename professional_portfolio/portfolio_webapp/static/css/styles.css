@@ -4,6 +4,11 @@ body {
     margin: 0;
     height: 100vh;
     overflow-y: hidden;
+    
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .text-body-primary {
@@ -130,7 +135,16 @@ body {
     padding-top:10px;
     font-size: 26px;
     color: #333;
+    
 }
+
+.education-icon:hover {
+    padding-top:10px;
+    font-size: 26px;
+    color: #333;
+    transform: scale(1.5);
+}
+
 
 /* Ajustar columnas de educación */
 .education-section .col-md-2 {
@@ -143,10 +157,25 @@ body {
     width: 15%;
     padding-bottom: 20px;
     padding-left: 10px;
+    
+  }
+
+/* Ajustar tamaño de las imágenes */
+.experience-section img:hover {
+    width: 15%;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    transform: scale(1.18);
   }
 
 .education-section img {
     width: 14%;
+}
+
+.education-section img:hover {
+    width: 14%;
+    transform: scale(1.18);
+
 }
 
 /* Ajustes generales para el right-body */
@@ -175,3 +204,11 @@ body {
 {
     width :45px !important;
 }
+
+.home-icons:hover
+{
+    width :45px !important;
+    transform: scale(1.18);
+
+}
+ 
