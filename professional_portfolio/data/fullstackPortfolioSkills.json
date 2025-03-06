@@ -1,0 +1,28 @@
+{
+    "fullStackSkills" : [
+    {
+      "skill": "Html & CSS",
+      "level": "Senior"      
+    },
+    {
+      "skill": "JavaScript",
+      "level": "Senior"
+    },
+    {
+      "skill": "Python",
+      "level": "Senior"
+    },
+    {
+      "skill": "React",
+      "level": "Intermediate"
+    },
+    {
+      "skill": "Angular",
+      "level": "Intermediate"
+    },
+    {
+      "skill": "NodeJS",
+      "level": "Senior"
+    }
+  ]
+}
