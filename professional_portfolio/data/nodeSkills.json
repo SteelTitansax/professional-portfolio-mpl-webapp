@@ -1,0 +1,28 @@
+{
+    "nodeSkills": [
+    {
+      "skill": "MD5",
+      "level": "Intermediate"      
+    },
+    {
+      "skill": "Handlebars",
+      "level": "Intermediate"      
+    },
+    {
+      "skill": "Express",
+      "level": "Intermediate"      
+    },
+    {
+      "skill": "Packages",
+      "level": "Intermediate"      
+    },
+    {
+      "skill": "Scripts",
+      "level": "Intermediate"      
+    },
+    {
+      "skill": "Testing",
+      "level": "Intermediate"      
+    }
+  ]
+}
