@@ -1,0 +1,32 @@
+{
+    "reactProjects": [
+    {
+      "name": "Moderngram",
+      "description": "Social network developed in HTML, CSS, Javascript, React and Firebase as a Database.",
+      "image": "moderngram.jpg",
+      "url": "https://moderngram.vercel.app/",
+      "github": "https://github.com/SteelTitansax/Moderngram"
+    },
+    {
+      "name": "Films Server",
+      "description": "Films server front end coded in HTML, CSS, JavaScript, React and ThemovieDb API.",
+      "image": "films-server.png",
+      "url": "https://films-server2.vercel.app/",
+      "github": "https://github.com/SteelTitansax/Netlix"
+    },
+    {
+      "name": "React Chat",
+      "description": "React Chat coded with React NodeJs Express and Socket.io (Youtube demo)",
+      "image": "ReactChat.png",
+      "url": "https://www.youtube.com/watch?v=YsCHC3Ohxi0&list=PL3FqiG-8pTmETVSdn3n7qXf68sjyAbMSN&index=15",
+      "github": "https://github.com/SteelTitansax/ChatReact"
+    },
+    {
+      "name": "Ecommerce App",
+      "description": "Ecommerce App with React NodeJs and Express (Demo not available)",
+      "image": "phoneCatallogue.jpg",
+      "url": "",
+      "github": "https://github.com/SteelTitansax/EcommerceReact"
+    }
+  ]
+}

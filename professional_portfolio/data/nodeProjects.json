@@ -1,0 +1,25 @@
+{
+    "nodeProjects": [
+    {
+      "name": "Node Social network ",
+      "description": "Social network coded with React NodeJs Express and MongoDB ",
+      "image": "imgshare.png",
+      "url": "https://youtu.be/C8DJYeXkOcI",
+      "github": "https://github.com/SteelTitansax/InstaManuel"
+    },
+    {
+      "name": "Phone Catallogue ",
+      "description": "Phone Catallogue, project coded with React NodeJs and Express ",
+      "image": "phoneCatallogue.jpg",
+      "url": "https://youtu.be/dC-AZMRFOTg",
+      "github": "https://github.com/SteelTitansax/PhoneCatallogue"
+    },
+    {
+      "name": "Onboarder(SPFX solution)",
+      "description": "Onboarder automation using SPFX and PowerAutomate ",
+      "image": "AD.png",
+      "url": "https://www.youtube.com/watch?v=nATSOt9eyeQ",
+      "github": "https://github.com/SteelTitansax/onboarderSolution"
+    }
+  ]
+}
