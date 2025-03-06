@@ -1,0 +1,28 @@
+{
+    "reactSkills": [
+    {
+      "skill": "Components",
+      "level": "Intermediate"      
+    },
+    {
+      "skill": "Cicle Life",
+      "level": "Intermediate"      
+    },
+    {
+      "skill": "Routes",
+      "level": "Intermediate"      
+    },
+    {
+      "skill": "Hooks",
+      "level": "Intermediate"      
+    },
+    {
+      "skill": "Testing",
+      "level": "Intermediate"      
+    },
+    {
+      "skill": "Mobile",
+      "level": "Intermediate"      
+    }
+  ]
+}
