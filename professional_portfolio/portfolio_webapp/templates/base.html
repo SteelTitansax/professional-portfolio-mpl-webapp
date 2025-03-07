@@ -22,17 +22,8 @@
                 I've experience as IT and Engineer in different countries. Good <span class="text-body-primary">communicative education</span> with people who do not have a scientific or engineering background.
             </p>
         </div>
-        
-        <nav class="navbar navbar-expand-lg">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="#">Home</a>
-                <a class="nav-item nav-link" href="#">Contact</a>
-                <a class="nav-item nav-link" href="#">Github</a>
-            </div>
-        </nav>
 
-
-        <h4 class="text-center mb-3 mt-3"><bold>Portfolios</bold></h4>
+        <h4 class="text-center mb-2 "><bold>Portfolios</bold></h4>
         <div class="experience-section container bg-white p-3 rounded">
             <div class="row">
                 {% for item in sections.portfolios.portfolios %}
@@ -43,7 +34,7 @@
             </div>
         </div>    
 
-        <h4 class="text-center mb-3 mt-3"><strong>Curriculum Vitae</strong></h4>
+        <h4 class="text-center mb-2 mt-2"><strong>Curriculum Vitae</strong></h4>
         <div class="experience-section container bg-white p-3 rounded">
             <div class="row">
                 {% for item in sections.curriculum.curriculum %}
@@ -60,15 +51,13 @@
             </div>
         </div>
 
-        <h4 class="text-center mt-4 mb-4"><bold>Education</bold></h4>
+        <h4 class="text-center mt-2 mb-2"><bold>Education</bold></h4>
         <div class="education-section container bg-white pt-4 pb-4 rounded">
             <div class="row">
                 {% for item in sections.education.education %}
-                    <div class="col-md-4 text-center mb-3">
-                        <h5 class="education-title">{{ item.tittle }}</h5>
-                        <p class="education-subtitle">{{ item.institution }}</p>
+                    <div class="col-md-2 text-center mb-3">
                         <i class="{{ item.icon }} education-icon"
-                        data-bs-toggle="tooltip" title="{{ item.tooltip }}"
+                        data-bs-toggle="tooltip" title="{{ item.tittle }} project"
                         data-pdf="{{ item.url }}"
                         data-bs-toggle="modal" data-bs-target="#pdfModal"
                         ></i>
@@ -76,7 +65,13 @@
                 {% endfor %}
             </div>
         </div>   
-
+        <nav class="navbar navbar-expand-lg">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#">Home</a>
+                <a class="nav-item nav-link" href="#">Contact</a>
+                <a class="nav-item nav-link" href="#">Github</a>
+            </div>
+        </nav>
     </div>
     
     <div class="right-body">
