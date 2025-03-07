@@ -4,37 +4,37 @@
 {% block content %}
 
 <h4 class="text-center mb-3"><bold>Experience</bold></h4>
-<div class="experience-section container bg-white pt-5 ml-2 mb-3 rounded">
+<div class="experience-section container bg-white pt-5 ml-2 mb-4 rounded">
     <div class="row">
         {% for item in sections.experiences.experiences %}
-        <div class="col-md-6 text-center mb-1">
-            <h5 class="experience-title">{{ item.title }} <img class="pt-3 experience-image" data-bs-toggle="tooltip" title="{{ item.tooltip }}" src="{% static item.image_path %}"/>
-            </h5>
+        <div class="col-md-6 text-center mb-3">
+            <h5 class="experience-title">{{ item.title }}</h5>
             <p class="experience-subtitle">{{ item.subtitle }}</p>
             <p class="experience-date">{{ item.date }}</p>
             <p class="experience-body">{{ item.description }}</p>
+            <img class="pt-3 experience-image" data-bs-toggle="tooltip" title="{{ item.tooltip }}" src="{% static item.image_path %}"/>
         </div>
         {% endfor %}
     </div>  
 </div>
 
-<h4 class="text-center mb-2 mt-2"><bold>Skills</bold></h4>
+<h4 class="text-center mb-3 mt-3"><bold>Skills</bold></h4>
 <div class="education-section container bg-white p-2 rounded">
     <div class="row">
         {% for skill in sections.skills.skills %}
-        <div class="col-md-1 text-center mt-2 mb-4">
-            <img class="home-icons" data-bs-toggle="tooltip" title="{{ skill.tooltip }}" src="{% static skill.image_path %}"/>
+        <div class="col-md-2 text-center mt-2 mb-4">
+            <img class="navbar-icons" data-bs-toggle="tooltip" title="{{ skill.tooltip }}" src="{% static skill.image_path %}"/>
         </div>
         {% endfor %}
     </div>
 </div>
 
-<h4 class="text-center mb-2 mt-2"><bold>Hobbies</bold></h4>
-<div class="education-section container bg-white rounded ">
+<h4 class="text-center mb-4 mt-4"><bold>Hobbies</bold></h4>
+<div class="education-section container bg-white  rounded">
     <div class="row">
         {% for hobby in sections.hobbies.hobbies %}
         <div class="col-md-4 text-center mb-2">
-            <img class="pt-4" data-bs-toggle="tooltip" title="{{ hobby.tooltip }}" src="{% static hobby.image_path %}"/>
+            <img width="10%" class="pt-4" data-bs-toggle="tooltip" title="{{ hobby.tooltip }}" src="{% static hobby.image_path %}"/>
         </div>
         {% endfor %}
     </div>
