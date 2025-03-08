@@ -16,3 +16,14 @@ def home(request):
     }
 
     return render(request, "home.html", {"sections": sections})
+
+def contact(request):
+    sections = {
+        "portfolios": load_json("portfolios"),
+        "curriculum": load_json("curriculum"),
+        "education": load_json("education"),
+        "experiences": load_json("experiences"),
+        "hobbies": load_json("hobbies"),
+        "skills": load_json("skills")
+    }
+    return render(request, "contact.html", {"sections": sections})

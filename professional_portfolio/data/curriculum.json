@@ -1,24 +1,24 @@
 {
     "curriculum": [
         {
-            "image": "static/img/english_resume_logo_spanish.jpg",
+            "image": "img/english_resume_logo_spanish.jpg",
             "tooltip": "Check resume",
             "pdf": "static/pdfs/cv_spanish.pdf"
         },
         {
-            "image": "static/img/game_presentation_logo_spanish.png",
+            "image": "img/game_presentation_logo_spanish.png",
             "tooltip": "Check game presentation",
             "pdf": "https://mpl-game-presentation-spanish.vercel.app/"
 
         },
         {
-            "image": "static/img/english_resume_logo_uk.jpg",
+            "image": "img/english_resume_logo_uk.jpg",
             "tooltip": "Check resume",
             "pdf": "static/pdfs/cv_english.pdf"
 
         },
         {
-            "image": "static/img/game_presentation_logo_uk.png",
+            "image": "img/game_presentation_logo_uk.png",
             "tooltip": "Check game presentation",
             "pdf": "https://mpl-game-presentation.vercel.app/"
 

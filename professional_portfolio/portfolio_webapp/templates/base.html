@@ -28,7 +28,7 @@
             <div class="row">
                 {% for item in sections.portfolios.portfolios %}
                     <div class="col-md-3 text-center">
-                        <a href="{{ item.url }}"><img class="navbar-icons" data-bs-toggle="tooltip" title="{{ item.tooltip }}" src="{{ item.image }}" /></a>
+                        <a href="{{ item.url }}"><img class="navbar-icons" data-bs-toggle="tooltip" title="{{ item.tooltip }}" src="{% static '' %}{{ item.image }}" /></a>
                     </div>
                 {% endfor %}                
             </div>
@@ -42,7 +42,7 @@
                         <img class="navbar-icons curriculum-icon" 
                                 data-bs-toggle="tooltip" 
                                 title="{{ item.tooltip }}" 
-                                src="{{ item.image }}" 
+                                src="{% static '' %}{{ item.image }}" 
                                 data-pdf="{{ item.pdf }}"
                                 data-bs-toggle="modal" data-bs-target="#pdfModal"/>
 
