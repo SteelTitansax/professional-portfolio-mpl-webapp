@@ -5,6 +5,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+
+// Modals code 
+// -------------------------------------------------------------------------
 document.addEventListener("DOMContentLoaded", function () {
     var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
     tooltipTriggerList.forEach(function (tooltipTriggerEl) {
@@ -37,7 +40,8 @@ document.addEventListener("DOMContentLoaded", function () {
             auxModal.show();
         });
     });
-    document.addEventListener("DOMContentLoaded", function () {
+
+document.addEventListener("DOMContentLoaded", function () {
         var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
         tooltipTriggerList.forEach(function (tooltipTriggerEl) {
             new bootstrap.Tooltip(tooltipTriggerEl);
@@ -51,5 +55,19 @@ document.addEventListener("DOMContentLoaded", function () {
                 auxModal.show();
             });
         });
+    });
+});
+
+// Hide modals code 
+// -------------------------------------------------------------------------
+document.addEventListener("DOMContentLoaded", function () {
+    var modal = document.getElementById("auxModal");
+
+    modal.addEventListener("hidden.bs.modal", function () {
+        var iframe = modal.querySelector("iframe");
+        if (iframe) {
+            var src = iframe.src;
+            iframe.src = "";
+        }
     });
 });
