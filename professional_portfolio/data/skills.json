@@ -2,51 +2,65 @@
     "skills": [
     {
       "image_path": "img/javascript.png",
-      "tooltip": "Check skill"
+      "tooltip": "Check skill",
+      "url": "static/mp4/javaScript.mp4"
     },
     {
       "image_path": "img/python_logo.png",
-      "tooltip": "Check skill"
+      "tooltip": "Check skill",
+      "url": "static/mp4/python.mp4"
     },
     {
       "image_path": "img/c_sharp.png",
-      "tooltip": "Check skill"
+      "tooltip": "Check skill",
+      "url": "static/mp4/cSharp.mp4"
+
     },
     {
       "image_path": "img/visual_basic.png",
-      "tooltip": "Check skill"
+      "tooltip": "Check skill",
+      "url": "static/mp4/visualBasic.mp4"
     },
     {
       "image_path": "img/power_platform_logo.png",
-      "tooltip": "Check skill"
+      "tooltip": "Check skill",
+      "url": "static/mp4/powerPlatform.mp4"
     },
     {
       "image_path": "img/uipath_logo.jpeg",
-      "tooltip": "Check skill"
+      "tooltip": "Check skill",
+      "url": "static/mp4/uiPath.mp4"
     },
     {
       "image_path": "img/azure_logo.png",
-      "tooltip": "Check skill"
+      "tooltip": "Check skill",
+      "url": "static/mp4/azure.mp4"
+
     },
     {
       "image_path": "img/afunction_logo.png",
-      "tooltip": "Check skill"
+      "tooltip": "Check skill",
+      "url": "static/mp4/azureFunctions.mp4"
     },
     {
       "image_path": "img/cognitive_services_logo.jpg",
-      "tooltip": "Check skill"
+      "tooltip": "Check skill",
+      "url": "static/mp4/cognitiveServices.mp4"
     },
     {
       "image_path": "img/open_ai_logo.jpg",
-      "tooltip": "Check skill"
+      "tooltip": "Check skill",
+      "url": ""
     },
     {
       "image_path": "img/azure_bot_framework_logo.png",
-      "tooltip": "Check skill"
+      "tooltip": "Check skill",
+      "url": ""
     },
     {
       "image_path": "img/mathematic_logo.jpg",
-      "tooltip": "Check skill"
+      "tooltip": "Check skill",
+      "url": "static/mp4/maths.mp4"
     }
   ]
 }

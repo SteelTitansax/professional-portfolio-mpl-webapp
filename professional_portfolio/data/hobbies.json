@@ -2,15 +2,18 @@
     "hobbies": [
     {
       "image_path": "img/arduino_logo.png",
-      "tooltip": "Check hobby"
+      "tooltip": "Check hobby",
+      "url": "static/mp4/arduino.mp4"
     },
     {
       "image_path": "img/3d_printing_logo.jpg",
-      "tooltip": "Check hobby"
+      "tooltip": "Check hobby",
+      "url": "static/mp4/3dPrinting.mp4"
     },
     {
       "image_path": "img/languages_logo.jpg",
-      "tooltip": "Check hobby"
+      "tooltip": "Check hobby",
+      "url": "static/mp4/languages.mp4"
     }
   ]
 }

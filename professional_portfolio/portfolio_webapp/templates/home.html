@@ -23,7 +23,12 @@
     <div class="row">
         {% for skill in sections.skills.skills %}
         <div class="col-md-1 text-center mt-2 mb-2">
-            <img class="home-icons" data-bs-toggle="tooltip" title="{{ skill.tooltip }}" src="{% static skill.image_path %}"/>
+            <img class="navbar-icons curriculum-icon" 
+                data-bs-toggle="tooltip" 
+                title="{{ skill.tooltip }}" 
+                src="{% static skill.image_path %}"
+                data-pdf="{{ skill.url }}"
+                data-bs-toggle="modal" data-bs-target="#auxModal"/>
         </div>
         {% endfor %}
     </div>
@@ -32,11 +37,20 @@
 <h4 class="text-center mb-2 mt-2"><bold>Hobbies</bold></h4>
 <div class="education-section container bg-white rounded mt-3 mb-3">
     <div class="row">
+
         {% for hobby in sections.hobbies.hobbies %}
+        
         <div class="col-md-4 text-center mb-2 mt-2">
-            <img data-bs-toggle="tooltip" title="{{ hobby.tooltip }}" src="{% static hobby.image_path %}"/>
+            <img class="navbar-icons curriculum-icon" 
+                 data-bs-toggle="tooltip" 
+                 title="{{ hobby.tooltip }}" 
+                 src="{% static hobby.image_path %}"
+                 data-pdf="{{ hobby.url }}"
+                 data-bs-toggle="modal" data-bs-target="#auxModal"/>
         </div>
+        
         {% endfor %}
+
     </div>
 </div>   
 

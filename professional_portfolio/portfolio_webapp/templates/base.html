@@ -34,7 +34,7 @@
             </div>
         </div>    
 
-        <h4 class="text-center mb-3 mt-3"><strong>Curriculum Vitae</strong></h4>
+        <h4 class="text-center mb-3 mt-3">Curriculum Vitae</h4>
         <div class="experience-section container bg-white p-3 mt-2 rounded">
             <div class="row">
                 {% for item in sections.curriculum.curriculum %}
@@ -44,7 +44,7 @@
                                 title="{{ item.tooltip }}" 
                                 src="{% static '' %}{{ item.image }}" 
                                 data-pdf="{{ item.pdf }}"
-                                data-bs-toggle="modal" data-bs-target="#pdfModal"/>
+                                data-bs-toggle="modal" data-bs-target="#auxModal"/>
 
                     </div>
                 {% endfor %}
@@ -59,7 +59,7 @@
                         <i class="{{ item.icon }} education-icon"
                         data-bs-toggle="tooltip" title="{{ item.tittle }} project"
                         data-pdf="{{ item.url }}"
-                        data-bs-toggle="modal" data-bs-target="#pdfModal"
+                        data-bs-toggle="modal" data-bs-target="#auxModal"
                         ></i>
                     </div>
                 {% endfor %}
@@ -80,7 +80,7 @@
     </div>
 
     <!-- Modal html-->
-    <div class="modal fade" id="pdfModal" tabindex="-1" aria-labelledby="pdfModalLabel" aria-hidden="true">
+    <div class="modal fade" id="auxModal" tabindex="-1" aria-labelledby="auxModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">

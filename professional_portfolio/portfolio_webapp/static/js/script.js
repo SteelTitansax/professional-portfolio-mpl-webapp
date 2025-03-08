@@ -15,8 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
         element.addEventListener("click", function () {
             let pdfUrl = this.getAttribute("data-pdf");
             document.getElementById("pdfViewer").src = pdfUrl;
-            let pdfModal = new bootstrap.Modal(document.getElementById("pdfModal"));
-            pdfModal.show();
+            let auxModal = new bootstrap.Modal(document.getElementById("auxModal"));
+            auxModal.show();
         });
     });
 });
@@ -33,8 +33,8 @@ document.addEventListener("DOMContentLoaded", function () {
         element.addEventListener("click", function () {
             let pdfUrl = this.getAttribute("data-pdf");
             document.getElementById("pdfViewer").src = pdfUrl;
-            let pdfModal = new bootstrap.Modal(document.getElementById("pdfModal"));
-            pdfModal.show();
+            let auxModal = new bootstrap.Modal(document.getElementById("auxModal"));
+            auxModal.show();
         });
     });
     document.addEventListener("DOMContentLoaded", function () {
@@ -47,8 +47,8 @@ document.addEventListener("DOMContentLoaded", function () {
             element.addEventListener("click", function () {
                 let pdfUrl = this.getAttribute("data-pdf");
                 document.getElementById("pdfViewer").src = pdfUrl;
-                let pdfModal = new bootstrap.Modal(document.getElementById("pdfModal"));
-                pdfModal.show();
+                let auxModal = new bootstrap.Modal(document.getElementById("auxModal"));
+                auxModal.show();
             });
         });
     });
