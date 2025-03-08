@@ -15,5 +15,4 @@ def home(request):
         "skills": load_json("skills")
     }
 
-    print(sections["hobbies"])
     return render(request, "home.html", {"sections": sections})

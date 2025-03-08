@@ -4,10 +4,10 @@
 {% block content %}
 
 <h4 class="text-center mb-3"><bold>Experience</bold></h4>
-<div class="experience-section container bg-white pt-5 ml-2 mb-3 rounded">
+<div class="experience-section container bg-white rounded mb-3">
     <div class="row">
         {% for item in sections.experiences.experiences %}
-        <div class="col-md-6 text-center mb-1">
+        <div class="col-md-6 text-center p-4">
             <h5 class="experience-title">{{ item.title }} <img class="pt-3 experience-image" data-bs-toggle="tooltip" title="{{ item.tooltip }}" src="{% static item.image_path %}"/>
             </h5>
             <p class="experience-subtitle">{{ item.subtitle }}</p>
@@ -19,10 +19,10 @@
 </div>
 
 <h4 class="text-center mb-2 mt-2"><bold>Skills</bold></h4>
-<div class="education-section container bg-white p-2 rounded">
+<div class="education-section container bg-white p-2 rounded mt-3 mb-3">
     <div class="row">
         {% for skill in sections.skills.skills %}
-        <div class="col-md-1 text-center mt-2 mb-4">
+        <div class="col-md-1 text-center mt-2 mb-2">
             <img class="home-icons" data-bs-toggle="tooltip" title="{{ skill.tooltip }}" src="{% static skill.image_path %}"/>
         </div>
         {% endfor %}
@@ -30,11 +30,11 @@
 </div>
 
 <h4 class="text-center mb-2 mt-2"><bold>Hobbies</bold></h4>
-<div class="education-section container bg-white rounded ">
+<div class="education-section container bg-white rounded mt-3 mb-3">
     <div class="row">
         {% for hobby in sections.hobbies.hobbies %}
-        <div class="col-md-4 text-center mb-2">
-            <img class="pt-4" data-bs-toggle="tooltip" title="{{ hobby.tooltip }}" src="{% static hobby.image_path %}"/>
+        <div class="col-md-4 text-center mb-2 mt-2">
+            <img data-bs-toggle="tooltip" title="{{ hobby.tooltip }}" src="{% static hobby.image_path %}"/>
         </div>
         {% endfor %}
     </div>
