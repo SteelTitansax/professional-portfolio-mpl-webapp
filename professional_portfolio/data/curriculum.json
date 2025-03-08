@@ -6,7 +6,7 @@
             "pdf": "static/pdfs/cv_spanish.pdf"
         },
         {
-            "image": "static/img/game_presentation_logo_english.jpg",
+            "image": "static/img/game_presentation_logo_spanish.png",
             "tooltip": "Check game presentation",
             "pdf": "https://mpl-game-presentation-spanish.vercel.app/"
 
@@ -18,7 +18,7 @@
 
         },
         {
-            "image": "static/img/game_presentation_logo_english.jpg",
+            "image": "static/img/game_presentation_logo_uk.png",
             "tooltip": "Check game presentation",
             "pdf": "https://mpl-game-presentation.vercel.app/"
 
