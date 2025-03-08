@@ -71,3 +71,12 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+
+// Show actual year
+// -------------------------------------------------------------------------
+document.addEventListener("DOMContentLoaded", function () {
+    var yearSpan = document.createElement("span");
+    yearSpan.textContent = new Date().getFullYear();
+    document.querySelector(".little-text p").appendChild(yearSpan);
+});

@@ -210,3 +210,13 @@ body {
 
 }
  
+.little-text {
+    padding-top: 25px;
+    color: #dfdfdf !important;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.little-text:hover {
+    color: #ffffff !important;
+}
