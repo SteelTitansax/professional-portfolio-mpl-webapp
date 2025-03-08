@@ -17,11 +17,6 @@
 
     },
     {
-      "image_path": "img/visual_basic.png",
-      "tooltip": "Check skill",
-      "url": "static/mp4/visualBasic.mp4"
-    },
-    {
       "image_path": "img/power_platform_logo.png",
       "tooltip": "Check skill",
       "url": "static/mp4/powerPlatform.mp4"
@@ -46,21 +41,6 @@
       "image_path": "img/cognitive_services_logo.jpg",
       "tooltip": "Check skill",
       "url": "static/mp4/cognitiveServices.mp4"
-    },
-    {
-      "image_path": "img/open_ai_logo.jpg",
-      "tooltip": "Check skill",
-      "url": ""
-    },
-    {
-      "image_path": "img/azure_bot_framework_logo.png",
-      "tooltip": "Check skill",
-      "url": ""
-    },
-    {
-      "image_path": "img/mathematic_logo.jpg",
-      "tooltip": "Check skill",
-      "url": "static/mp4/maths.mp4"
     }
   ]
 }
