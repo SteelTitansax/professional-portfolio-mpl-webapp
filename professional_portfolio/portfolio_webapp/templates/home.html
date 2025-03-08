@@ -8,7 +8,7 @@
     <div class="row">
         {% for item in sections.experiences.experiences %}
         <div class="col-md-6 text-center p-4">
-            <h5 class="experience-title">{{ item.title }} <img class="pt-3 experience-image" data-bs-toggle="tooltip" title="{{ item.tooltip }}" src="{% static item.image_path %}"/>
+            <h5 class="experience-title">{{ item.title }} <a href="{{ item.url }}" target="_blank"> <img class="experience-image" data-bs-toggle="tooltip" title="{{ item.tooltip }}" src="{% static item.image_path %}" /> </a>
             </h5>
             <p class="experience-subtitle">{{ item.subtitle }}</p>
             <p class="experience-date">{{ item.date }}</p>
