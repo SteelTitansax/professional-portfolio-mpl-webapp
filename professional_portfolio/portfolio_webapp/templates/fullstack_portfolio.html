@@ -33,14 +33,14 @@
 <div class="education-section container bg-white rounded mt-3 mb-3">
     <div class="row">
 
-        {% for hobby in sections.hobbies.hobbies %}
+        {% for project in sections.fullstackProjects.projects %}
         
-        <div class="col-md-4 text-center mb-2 mt-2">
-            <img class="navbar-icons curriculum-icon" 
+        <div class="col-md-4 text-center mb-4 mt-4">
+            <img class="navbar-icons project-icon" 
                  data-bs-toggle="tooltip" 
-                 title="{{ hobby.tooltip }}" 
-                 src="{% static hobby.image_path %}"
-                 data-pdf="{{ hobby.url }}"
+                 title="{{ project.name }} - {{ project.description }}" 
+                 src="{% static project.image %}"
+                 data-pdf="{{ project.url }}"
                  data-bs-toggle="modal" data-bs-target="#auxModal"/>
         </div>
         

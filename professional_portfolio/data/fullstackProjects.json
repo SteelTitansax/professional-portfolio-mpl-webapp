@@ -3,37 +3,37 @@
     {
       "name": "ReactJS",
       "description": "Please check out the react section of this portfolio",
-      "image": "reactjs.jpg",
+      "image": "img/reactjs.jpg",
       "url": "/react"
     },
     {
       "name": "AngularJS",
       "description": "Please check out the AngularJS section of this portfolio",
-      "image": "angularjs.jpg",
+      "image": "img/angularjs.jpg",
       "url": "/angular"
     },
     {
       "name": "NodeJS",
       "description": "Please check out the nodeJS section of this portfolio",
-      "image": "nodejs.jpg",
+      "image": "img/nodejs.jpg",
       "url": "/node"
     },
     {
       "name": "Flask/Django",
       "description": "Please check out the Flask/Django app section of this portfolio",
-      "image": "flaskDjango.jpeg",
+      "image": "img/flaskDjango.jpeg",
       "url": "/fullstack"
     },
     {
       "name": "PowerApps",
       "description": "Please check out the PowerApps section of this portfolio",
-      "image": "canvas.png",
+      "image": "img/canvas.png",
       "url": "/powerapps"
     },
     {
       "name": "C #",
       "description": "Please check out the C# development section of this portfolio",
-      "image": "c_sharp.jpeg",
+      "image": "img/c_sharp.jpeg",
       "url": "/csharp"
     }
   ]

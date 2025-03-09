@@ -210,6 +210,19 @@ body {
 
 }
  
+.project-icon
+{
+    width :180px !important;
+}
+
+.project-icon:hover
+{
+    width :180px !important;
+    transform: scale(1.18);
+
+}
+
+
 .little-text {
     padding-top: 25px;
     color: #dfdfdf !important;
