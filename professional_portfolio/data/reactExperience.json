@@ -1,0 +1,11 @@
+{
+    "experiences": 
+    [
+           {
+              "title": "ReactJS",
+              "subtitle": "ReactJS is a JavaScript library for building dynamic, component-based user interfaces, primarily for single-page applications. It uses a virtual DOM for efficient rendering and a declarative syntax for building UI components.",
+              "date": "Jun 2020 - Jun 2021"
+                      
+          }
+      ]
+  }

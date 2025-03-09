@@ -38,3 +38,69 @@ def fullstack_portfolio(request):
         "fullstackProjects": load_json("fullstackProjects")       
     }
     return render(request, "fullstack_portfolio.html", {"sections": sections})
+
+def react(request):
+    sections = {
+        "portfolios": load_json("portfolios"),
+        "curriculum": load_json("curriculum"),
+        "education": load_json("education"),
+        "reactExperience": load_json("reactExperience"),
+        "reactSkills": load_json("reactSkills"),
+        "reactProjects": load_json("reactProjects")       
+    }
+    return render(request, "react.html", {"sections": sections})
+
+def angular(request):
+    sections = {
+        "portfolios": load_json("portfolios"),
+        "curriculum": load_json("curriculum"),
+        "education": load_json("education"),
+        "fullstackExperience": load_json("fullstackExperience"),
+        "fullstackSkills": load_json("fullstackSkills"),
+        "fullstackProjects": load_json("fullstackProjects")       
+    }
+    return render(request, "fullstack_portfolio.html", {"sections": sections})
+
+def node(request): 
+    sections = {
+        "portfolios": load_json("portfolios"),
+        "curriculum": load_json("curriculum"),
+        "education": load_json("education"),
+        "fullstackExperience": load_json("fullstackExperience"),
+        "fullstackSkills": load_json("fullstackSkills"),
+        "fullstackProjects": load_json("fullstackProjects")       
+    }
+    return render(request, "fullstack_portfolio.html", {"sections": sections})
+
+def djangoFlask(request):
+    sections = {
+        "portfolios": load_json("portfolios"),
+        "curriculum": load_json("curriculum"),
+        "education": load_json("education"),
+        "fullstackExperience": load_json("fullstackExperience"),
+        "fullstackSkills": load_json("fullstackSkills"),
+        "fullstackProjects": load_json("fullstackProjects")       
+    }
+    return render(request, "fullstack_portfolio.html", {"sections": sections})
+
+
+def powerApps(request):
+    sections = {
+        "portfolios": load_json("portfolios"),
+        "curriculum": load_json("curriculum"),
+        "education": load_json("education"),
+        "fullstackExperience": load_json("fullstackExperience"),
+        "fullstackSkills": load_json("fullstackSkills"),
+        "fullstackProjects": load_json("fullstackProjects")       
+    }
+    return render(request, "fullstack_portfolio.html", {"sections": sections})   
+def csharp(request):
+    sections = {
+        "portfolios": load_json("portfolios"),
+        "curriculum": load_json("curriculum"),
+        "education": load_json("education"),
+        "fullstackExperience": load_json("fullstackExperience"),
+        "fullstackSkills": load_json("fullstackSkills"),
+        "fullstackProjects": load_json("fullstackProjects")       
+    }
+    return render(request, "fullstack_portfolio.html", {"sections": sections})   

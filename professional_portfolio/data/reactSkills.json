@@ -1,28 +1,34 @@
 {
-    "reactSkills": [
+  "skills": [
     {
       "skill": "Components",
-      "level": "Intermediate"      
+      "level": "Intermediate",
+      "icon": "fas fa-puzzle-piece"
     },
     {
-      "skill": "Cicle Life",
-      "level": "Intermediate"      
+      "skill": "Lifecycle Methods",
+      "level": "Intermediate",
+      "icon": "fas fa-sync-alt"
     },
     {
-      "skill": "Routes",
-      "level": "Intermediate"      
+      "skill": "React Router (Routes)",
+      "level": "Intermediate",
+      "icon": "fas fa-route"
     },
     {
       "skill": "Hooks",
-      "level": "Intermediate"      
+      "level": "Intermediate",
+      "icon": "fas fa-plug"
     },
     {
-      "skill": "Testing",
-      "level": "Intermediate"      
+      "skill": "Testing (React Testing Library)",
+      "level": "Intermediate",
+      "icon": "fas fa-vial"
     },
     {
-      "skill": "Mobile",
-      "level": "Intermediate"      
+      "skill": "React Native (Mobile)",
+      "level": "Intermediate",
+      "icon": "fas fa-mobile-alt"
     }
   ]
 }

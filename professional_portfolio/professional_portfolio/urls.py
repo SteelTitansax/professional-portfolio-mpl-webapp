@@ -22,5 +22,11 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.home, name='home'),
     path('contact/',views.contact, name='contact'),
-    path('fullstack-portfolio/',views.fullstack_portfolio, name='fullstack_portfolio')
+    path('fullstack-portfolio/',views.fullstack_portfolio, name='fullstack_portfolio'),
+    path('react/',views.react, name='react'),
+    path('angular/',views.angular, name='angular'),
+    path('node/',views.node, name='node'),
+    path('djangoFlask/',views.djangoFlask, name='flaskDjango'),
+    path('powerApps/',views.powerApps, name='powerApps'),
+    path('csharp/',views.csharp, name='csharp'),
 ]

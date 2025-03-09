@@ -1,32 +1,41 @@
 {
-    "reactProjects": [
+    "projects": [
     {
       "name": "Moderngram",
       "description": "Social network developed in HTML, CSS, Javascript, React and Firebase as a Database.",
-      "image": "moderngram.jpg",
-      "url": "https://moderngram.vercel.app/",
-      "github": "https://github.com/SteelTitansax/Moderngram"
+      "image": "img/moderngram.jpg",
+      "url": "https://moderngram.vercel.app/"
     },
     {
       "name": "Films Server",
       "description": "Films server front end coded in HTML, CSS, JavaScript, React and ThemovieDb API.",
-      "image": "films-server.png",
-      "url": "https://films-server2.vercel.app/",
-      "github": "https://github.com/SteelTitansax/Netlix"
+      "image": "img/films-server.png",
+      "url": "https://films-server2.vercel.app/"
     },
     {
       "name": "React Chat",
       "description": "React Chat coded with React NodeJs Express and Socket.io (Youtube demo)",
-      "image": "ReactChat.png",
-      "url": "https://www.youtube.com/watch?v=YsCHC3Ohxi0&list=PL3FqiG-8pTmETVSdn3n7qXf68sjyAbMSN&index=15",
-      "github": "https://github.com/SteelTitansax/ChatReact"
+      "image": "img/ReactChat.png",
+      "url": "https://www.youtube.com/watch?v=YsCHC3Ohxi0&list=PL3FqiG-8pTmETVSdn3n7qXf68sjyAbMSN&index=15"
     },
     {
       "name": "Ecommerce App",
       "description": "Ecommerce App with React NodeJs and Express (Demo not available)",
-      "image": "phoneCatallogue.jpg",
-      "url": "",
-      "github": "https://github.com/SteelTitansax/EcommerceReact"
-    }
+      "image": "img/phoneCatallogue.jpg",
+      "url": "https://github.com/SteelTitansax/EcommerceReact"
+    },
+    {
+      "name": "React Native Chat",
+      "description":"React Native Chat developed with HTML, CSS, Javascript, React Native and Firebase. (Demo not available)",
+      "image":"img/chat.jpg",
+      "url":"https://github.com/SteelTitansax/ReactNativeChat"
+  },
+  {
+      "name": "React Native Agenda",
+      "description":"Agenda app developed in HTML, CSS, JavaScript, React Native and Firebase (Demo not available)",
+      "image":"img/agenda.jpg",
+      "url":"https://github.com/SteelTitansax/ReactNativeAgenda"
+      
+  }
   ]
 }
