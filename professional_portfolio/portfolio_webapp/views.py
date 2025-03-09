@@ -66,11 +66,11 @@ def node(request):
         "portfolios": load_json("portfolios"),
         "curriculum": load_json("curriculum"),
         "education": load_json("education"),
-        "fullstackExperience": load_json("fullstackExperience"),
-        "fullstackSkills": load_json("fullstackSkills"),
-        "fullstackProjects": load_json("fullstackProjects")       
+        "nodeExperience": load_json("nodeExperience"),
+        "nodeSkills": load_json("nodeSkills"),
+        "nodeProjects": load_json("nodeProjects")       
     }
-    return render(request, "fullstack_portfolio.html", {"sections": sections})
+    return render(request, "node.html", {"sections": sections})
 
 def djangoFlask(request):
     sections = {

@@ -1,28 +1,34 @@
 {
-    "nodeSkills": [
+  "skills": [
     {
       "skill": "MD5",
-      "level": "Intermediate"      
+      "level": "Intermediate",
+      "icon": "fas fa-key"
     },
     {
       "skill": "Handlebars",
-      "level": "Intermediate"      
+      "level": "Intermediate",
+      "icon": "fas fa-paint-brush"
     },
     {
       "skill": "Express",
-      "level": "Intermediate"      
+      "level": "Intermediate",
+      "icon": "fas fa-plug"
     },
     {
       "skill": "Packages",
-      "level": "Intermediate"      
+      "level": "Intermediate",
+      "icon": "fas fa-box"
     },
     {
       "skill": "Scripts",
-      "level": "Intermediate"      
+      "level": "Intermediate",
+      "icon": "fas fa-terminal"
     },
     {
       "skill": "Testing",
-      "level": "Intermediate"      
+      "level": "Intermediate",
+      "icon": "fas fa-vial"
     }
   ]
 }

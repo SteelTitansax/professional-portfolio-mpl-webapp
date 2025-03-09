@@ -1,0 +1,11 @@
+{
+    "experiences": 
+    [
+           {
+              "title": "NodeJS",
+              "subtitle": "Node.js is a JavaScript runtime built on Chrome's V8 engine, enabling server-side scripting. It allows developers to build scalable, high-performance applications using JavaScript outside of the browser. ",
+              "date": "Jun 2020- Current"
+                      
+          }
+      ]
+  }
