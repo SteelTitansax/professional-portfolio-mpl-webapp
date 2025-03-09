@@ -34,18 +34,23 @@
     <div class="row">
 
         {% for project in sections.reactProjects.projects %}
-        
         <div class="col-md-4 text-center mb-4 mt-4">
+            {% if "mp4" in project.url %}
+            <img class="navbar-icons project-image" 
+                data-bs-toggle="tooltip" 
+                title="{{ project.name }} - {{ project.description }}" 
+                src="{% static project.image %}"
+                data-pdf="{% static project.url %}"
+                data-bs-toggle="modal" data-bs-target="#auxModal"/>
+            {% else %}
             <a href="{{ project.url }}">
-                <img class="navbar-icons project-icon" 
+                <img class="navbar-icons project-image" 
                     data-bs-toggle="tooltip" 
                     title="{{ project.name }} - {{ project.description }}" 
-                    src="{% static project.image %}"
-                    data-pdf="{{ project.url }}"
-                    data-bs-toggle="modal" data-bs-target="#auxModal"/>
+                    src="{% static project.image %}"/>
             </a>
+            {% endif %}
         </div>
-        
         {% endfor %}
 
     </div>

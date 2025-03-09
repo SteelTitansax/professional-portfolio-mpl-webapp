@@ -222,6 +222,17 @@ body {
 
 }
 
+.project-image
+{
+    width :65% !important;
+}
+
+.project-image:hover
+{
+    width :65% !important;
+    transform: scale(1.18);
+
+}
 
 .little-text {
     padding-top: 25px;
