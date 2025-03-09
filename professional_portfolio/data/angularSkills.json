@@ -1,28 +1,34 @@
 {
-    "angularSkills": [
+  "skills": [
     {
       "skill": "Components",
-      "level": "Intermediate"      
+      "level": "Intermediate",
+      "icon": "fas fa-cogs"
     },
     {
       "skill": "Cicle Life",
-      "level": "Intermediate"      
+      "level": "Intermediate",
+      "icon": "fas fa-sync-alt"
     },
     {
       "skill": "Routes",
-      "level": "Intermediate"      
+      "level": "Intermediate",
+      "icon": "fas fa-route"
     },
     {
       "skill": "Structure",
-      "level": "Intermediate"      
+      "level": "Intermediate",
+      "icon": "fas fa-sitemap"
     },
     {
       "skill": "Testing",
-      "level": "Intermediate"      
+      "level": "Intermediate",
+      "icon": "fas fa-vial"
     },
     {
       "skill": "Mobile",
-      "level": "Intermediate"      
+      "level": "Intermediate",
+      "icon": "fas fa-mobile-alt"
     }
   ]
 }

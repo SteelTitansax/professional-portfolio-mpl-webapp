@@ -1,0 +1,11 @@
+{
+    "experiences": 
+    [
+           {
+              "title": "AnagularJS",
+              "subtitle": "Angular is a platform and framework for building single-page client applications using HTML and TypeScript. It provides a structured way to develop dynamic web apps with reusable components, services, and modules.",
+              "date": "Jun 2020 - Jun 2021"
+                      
+          }
+      ]
+  }

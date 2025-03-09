@@ -1,19 +1,24 @@
 {
   "skills": [
     {
-      "skill": "Frontend",
-      "level": "Senior",
-      "icon": "fas fa-laptop-code"
-    },
-    {
-      "skill": "Backend",
-      "level": "Senior",
-      "icon": "fas fa-server"
-    },
-    {
-      "skill": "Deployment",
+      "skill": "Components",
       "level": "Intermediate",
-      "icon": "fas fa-cloud-upload-alt"
+      "icon": "fas fa-cogs"
+    },
+    {
+      "skill": "Cicle Life",
+      "level": "Intermediate",
+      "icon": "fas fa-sync-alt"
+    },
+    {
+      "skill": "Routes",
+      "level": "Intermediate",
+      "icon": "fas fa-route"
+    },
+    {
+      "skill": "Structure",
+      "level": "Intermediate",
+      "icon": "fas fa-sitemap"
     },
     {
       "skill": "Testing",
@@ -21,14 +26,9 @@
       "icon": "fas fa-vial"
     },
     {
-      "skill": "Cloud-Tools",
-      "level": "Senior",
-      "icon": "fas fa-cloud"
-    },
-    {
-      "skill": "Databases",
-      "level": "Senior",
-      "icon": "fas fa-database"
+      "skill": "Mobile",
+      "level": "Intermediate",
+      "icon": "fas fa-mobile-alt"
     }
   ]
 }

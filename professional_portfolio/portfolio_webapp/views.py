@@ -55,11 +55,11 @@ def angular(request):
         "portfolios": load_json("portfolios"),
         "curriculum": load_json("curriculum"),
         "education": load_json("education"),
-        "fullstackExperience": load_json("fullstackExperience"),
-        "fullstackSkills": load_json("fullstackSkills"),
-        "fullstackProjects": load_json("fullstackProjects")       
+        "angularExperience": load_json("angularExperience"),
+        "angularSkills": load_json("angularSkills"),
+        "angularProjects": load_json("angularProjects")       
     }
-    return render(request, "fullstack_portfolio.html", {"sections": sections})
+    return render(request, "angular.html", {"sections": sections})
 
 def node(request): 
     sections = {
