@@ -36,12 +36,14 @@
         {% for project in sections.fullstackProjects.projects %}
         
         <div class="col-md-4 text-center mb-4 mt-4">
-            <img class="navbar-icons project-icon" 
-                 data-bs-toggle="tooltip" 
-                 title="{{ project.name }} - {{ project.description }}" 
-                 src="{% static project.image %}"
-                 data-pdf="{{ project.url }}"
-                 data-bs-toggle="modal" data-bs-target="#auxModal"/>
+            <a href="{{ project.url }}" target="_blank">
+                <img class="navbar-icons project-icon" 
+                    data-bs-toggle="tooltip" 
+                    title="{{ project.name }} - {{ project.description }}" 
+                    src="{% static project.image %}"
+                    data-pdf="{{ project.url }}"
+                    data-bs-toggle="modal" data-bs-target="#auxModal"/>
+            </a>
         </div>
         
         {% endfor %}
