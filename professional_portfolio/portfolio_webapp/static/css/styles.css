@@ -59,7 +59,7 @@ body {
     margin-left: 10.5%;
     overflow: hidden;
     position: fixed;
-    bottom: 0;
+    bottom: 8px;
     width: 100%;
     font-size: 14px;
   }
