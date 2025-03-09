@@ -1,0 +1,48 @@
+{
+    "projects": [
+        {
+            "name": "Incidences App",
+            "description":"Check my Incidences app demo",
+            "image":"img/incidencesApp.png",
+            "url": "/mp4/incidencesApp.mp4"
+        }, 
+        {
+            "name": "Travel App",
+            "description":"Check my App",
+            "image":"img/travel.png",
+            "url": "/mp4/travelApp.mp4"
+            }, {
+            "name": "AD App",
+            "description":"Check my AD app demo",
+            "image":"img/AD.png",
+            "url": "/mp4/activeDirectory.mp4"
+            }, {
+            "name": "Catallogue",
+            "description":"Check my Catallogue app demo",
+            "image":"img/Catallogue.png",
+            "url": "/mp4/catallogueApp.mp4"
+        },
+        {
+            "name": "Training",
+            "description":"Check my Training App",
+            "image":"img/Training.png",
+            "url": "/mp4/trainingApp.mp4"
+            }, {
+            "name": "Warehouse app",
+            "description":"Check my Warehouse app demo",
+            "image":"img/Warehouse.png",
+            "url": "/mp4/warehouseApp.mp4"
+        }
+        , {
+            "name": "Ai Forms Reader",
+            "description":"Check my Ai Forms Reader app demo",
+            "image":"img/Ai-builder.png",
+            "url": "/mp4/aiFormReader.mp4"
+            },{
+            "name": "PowerApp RPA Monitoring Tool",
+            "description":"RPA Monitoring tool app solution",
+            "image":"img/rpaMonitoring.png",
+            "url": "/mp4/rpaMonitoringApp.mp4"
+        }
+  ]
+}

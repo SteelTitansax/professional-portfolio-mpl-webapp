@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<h4 class="text-center mt-3 mb-3"><bold>Experience</bold></h4>
+<div class="experience-section container bg-white rounded mb-3">
+    <div class="row">
+        {% for item in sections.powerAppsExperience.experiences %}
+        <div class="text-justify p-4" style="padding-right: 65px !important;">
+            <h5 class="experience-title pt-1">{{ item.title }}</h5>
+            <p class="experience-body pt-1">{{ item.subtitle }}</p>
+            <p class="experience-body">{{ item.date }}</p>
+        </div>
+        {% endfor %}
+    </div>  
+</div>
+
+<h4 class="text-center mb-2 mt-2"><bold>Skills</bold></h4>
+<div class="education-section container bg-white p-2 rounded mt-3 mb-3">
+    <div class="row">
+        {% for skill in sections.powerAppsSkills.skills %}
+        <div class="col-md-2 text-center mt-2 mb-2">
+            <i class="{{ skill.icon }} education-icon"
+               data-bs-toggle="tooltip" title="{{skill.skill}} Level : {{ skill.level }}"></i>
+            
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<h4 class="text-center mb-2 mt-2"><bold>Projects</bold></h4>
+<div class="education-section container bg-white rounded mt-3 mb-3">
+    <div class="row">
+
+        {% for project in sections.powerAppsProjects.projects %}
+        <div class="col-md-3 text-center mb-4 mt-4">
+            {% if "mp4" in project.url %}
+            <img class="navbar-icons project-image" 
+                data-bs-toggle="tooltip" 
+                title="{{ project.name }} - {{ project.description }}" 
+                src="{% static project.image %}"
+                data-pdf="{% static project.url %}"
+                data-bs-toggle="modal" data-bs-target="#auxModal"/>
+            {% else %}
+            <a href="{{ project.url }}">
+                <img class="navbar-icons project-image" 
+                    data-bs-toggle="tooltip" 
+                    title="{{ project.name }} - {{ project.description }}" 
+                    src="{% static project.image %}"/>
+            </a>
+            {% endif %}
+        </div>
+        {% endfor %}
+
+    </div>
+</div>   
+
+{% endblock %}

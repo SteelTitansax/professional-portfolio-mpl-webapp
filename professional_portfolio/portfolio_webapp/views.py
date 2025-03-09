@@ -89,11 +89,11 @@ def powerApps(request):
         "portfolios": load_json("portfolios"),
         "curriculum": load_json("curriculum"),
         "education": load_json("education"),
-        "fullstackExperience": load_json("fullstackExperience"),
-        "fullstackSkills": load_json("fullstackSkills"),
-        "fullstackProjects": load_json("fullstackProjects")       
+        "powerAppsExperience": load_json("powerAppsExperience"),
+        "powerAppsSkills": load_json("powerAppsSkills"),
+        "powerAppsProjects": load_json("powerAppsProjects")       
     }
-    return render(request, "fullstack_portfolio.html", {"sections": sections})   
+    return render(request, "powerApps.html", {"sections": sections})   
 def csharp(request):
     sections = {
         "portfolios": load_json("portfolios"),

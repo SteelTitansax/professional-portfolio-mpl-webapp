@@ -1,0 +1,35 @@
+{
+    "skills": [
+      {
+        "skill": "Canvas Apps",
+        "level": "Intermediate",
+        "icon": "fas fa-paint-brush"
+      },
+      {
+        "skill": "Model-Driven Apps",
+        "level": "Intermediate",
+        "icon": "fas fa-database"
+      },
+      {
+        "skill": "Power Automate",
+        "level": "Intermediate",
+        "icon": "fas fa-sync-alt"
+      },
+      {
+        "skill": "Dataverse",
+        "level": "Intermediate",
+        "icon": "fas fa-server"
+      },
+      {
+        "skill": "Connectors",
+        "level": "Intermediate",
+        "icon": "fas fa-plug"
+      },
+      {
+        "skill": "AI Builder",
+        "level": "Intermediate",
+        "icon": "fas fa-robot"
+      }
+    ]
+  }
+  
