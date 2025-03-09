@@ -28,7 +28,7 @@
             <div class="row">
                 {% for item in sections.portfolios.portfolios %}
                     <div class="col-md-3 text-center">
-                        <a href="{{ item.url }}"><img class="navbar-icons" data-bs-toggle="tooltip" title="{{ item.tooltip }}" src="{% static '' %}{{ item.image }}" /></a>
+                        <a href="/{{ item.url }}"><img class="navbar-icons" data-bs-toggle="tooltip" title="{{ item.tooltip }}" src="{% static '' %}{{ item.image }}" /></a>
                     </div>
                 {% endfor %}                
             </div>
@@ -40,14 +40,14 @@
                 {% for item in sections.curriculum.curriculum %}
                     <div class="col-md-3 text-center">
                         <img class="navbar-icons curriculum-icon" 
-                                data-bs-toggle="tooltip" 
-                                title="{{ item.tooltip }}" 
-                                src="{% static '' %}{{ item.image }}" 
-                                data-pdf="{{ item.pdf }}"
-                                data-bs-toggle="modal" data-bs-target="#auxModal"/>
-
+                            data-bs-toggle="tooltip" 
+                            title="{{ item.tooltip }}" 
+                            src="{% static item.image %}" 
+                            data-pdf="{% if item.pdf|slice:":4" == "http" %}{{ item.pdf }}{% else %}/{{ item.pdf }}{% endif %}" 
+                            data-bs-toggle="modal" data-bs-target="#auxModal"/>
                     </div>
-                {% endfor %}
+                {% endfor %}    
+
             </div>
         </div>
 
@@ -58,7 +58,7 @@
                     <div class="col-md-2 text-center mb-3">
                         <i class="{{ item.icon }} education-icon"
                         data-bs-toggle="tooltip" title="{{ item.tittle }} project"
-                        data-pdf="{{ item.url }}"
+                        data-pdf="/{{ item.url }}"
                         data-bs-toggle="modal" data-bs-target="#auxModal"
                         ></i>
                     </div>

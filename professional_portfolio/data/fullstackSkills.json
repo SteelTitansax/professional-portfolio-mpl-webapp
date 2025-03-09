@@ -1,0 +1,34 @@
+{
+  "skills": [
+    {
+      "skill": "Frontend",
+      "level": "Senior",
+      "icon": "fas fa-laptop-code"
+    },
+    {
+      "skill": "Backend",
+      "level": "Senior",
+      "icon": "fas fa-server"
+    },
+    {
+      "skill": "Deployment",
+      "level": "Intermediate",
+      "icon": "fas fa-cloud-upload-alt"
+    },
+    {
+      "skill": "Testing",
+      "level": "Intermediate",
+      "icon": "fas fa-vial"
+    },
+    {
+      "skill": "Cloud-Tools",
+      "level": "Senior",
+      "icon": "fas fa-cloud"
+    },
+    {
+      "skill": "Databases",
+      "level": "Senior",
+      "icon": "fas fa-database"
+    }
+  ]
+}

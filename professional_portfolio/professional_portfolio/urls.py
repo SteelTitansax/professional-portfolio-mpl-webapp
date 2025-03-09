@@ -21,5 +21,6 @@ from portfolio_webapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.home, name='home'),
-    path('contact/',views.contact, name='contact')
+    path('contact/',views.contact, name='contact'),
+    path('fullstack-portfolio/',views.fullstack_portfolio, name='fullstack_portfolio')
 ]
