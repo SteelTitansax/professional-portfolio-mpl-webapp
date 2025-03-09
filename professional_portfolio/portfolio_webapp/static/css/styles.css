@@ -212,12 +212,12 @@ body {
  
 .project-icon
 {
-    width :180px !important;
+    width :65% !important;
 }
 
 .project-icon:hover
 {
-    width :180px !important;
+    width :65% !important;
     transform: scale(1.18);
 
 }
