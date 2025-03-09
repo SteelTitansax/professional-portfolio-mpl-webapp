@@ -1,0 +1,30 @@
+{
+    "projects": [ 
+    
+            {
+                "name": "RPA Launcher",
+                "description":"RPA Launche, React (front end) and Python Flask (back end)",
+                "image":"img/robotLauncher.png",
+                "url": "/mp4/robotLauncher.mp4"
+
+            },{
+                "name": "CloudCherryTree",
+                "description":"Gestor Documental coded with Flask hosted with Azure App Services",
+                "image":"img/cloudCherryTree.png",
+                "url":"https://cloudcherrytree.azurewebsites.net/"
+
+            },{
+                "name": "Django ToDo App",
+                "description":"ToDo App coded in python using Django as framework",
+                "image":"img/todoDjango.png",
+                "url": "/mp4/todoDjango.mp4"
+            },{
+                "name": "Django Inventory App",
+                "description":"ToDo App coded in python using Django as framework",
+                "image":"img/inventoryDjango.png",
+                "url": "/mp4/inventoryDjango.mp4"
+            } 
+
+    ]
+
+}

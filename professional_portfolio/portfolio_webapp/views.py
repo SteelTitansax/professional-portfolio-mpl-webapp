@@ -77,11 +77,11 @@ def djangoFlask(request):
         "portfolios": load_json("portfolios"),
         "curriculum": load_json("curriculum"),
         "education": load_json("education"),
-        "fullstackExperience": load_json("fullstackExperience"),
-        "fullstackSkills": load_json("fullstackSkills"),
-        "fullstackProjects": load_json("fullstackProjects")       
+        "djangoFlaskExperience": load_json("djangoFlaskExperience"),
+        "djangoFlaskSkills": load_json("djangoFlaskSkills"),
+        "djangoFlaskProjects": load_json("djangoFlaskProjects")       
     }
-    return render(request, "fullstack_portfolio.html", {"sections": sections})
+    return render(request, "djangoFlask.html", {"sections": sections})
 
 
 def powerApps(request):

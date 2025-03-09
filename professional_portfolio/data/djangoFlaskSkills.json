@@ -1,0 +1,35 @@
+{
+    "skills": [
+      {
+        "skill": "Django",
+        "level": "Senior",
+        "icon": "fas fa-cogs"
+      },
+      {
+        "skill": "Flask",
+        "level": "Specialist",
+        "icon": "fas fa-plug"
+      },
+      {
+        "skill": "Deployment",
+        "level": "Senior",
+        "icon": "fas fa-cloud-upload-alt"
+      },
+      {
+        "skill": "Testing",
+        "level": "Senior",
+        "icon": "fas fa-vial"
+      },
+      {
+        "skill": "Cloud-Tools",
+        "level": "Senior",
+        "icon": "fas fa-cloud"
+      },
+      {
+        "skill": "Databases",
+        "level": "Senior",
+        "icon": "fas fa-database"
+      }
+    ]
+  }
+  
