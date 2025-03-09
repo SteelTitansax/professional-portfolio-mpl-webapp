@@ -1,16 +1,34 @@
 {
-    "cSharpSkills": [
+  "skills": [
     {
-      "skill": "Html & CSS & JavaScript",
-      "level": "Senior"      
+      "skill": "OOP (Object-Oriented Programming)",
+      "level": "Intermediate",
+      "icon": "fas fa-cube"
     },
     {
-      "skill": "ASP.Net",
-      "level": "Senior"      
+      "skill": "ASP.NET Core",
+      "level": "Intermediate",
+      "icon": "fas fa-globe"
+    },
+    {
+      "skill": "Entity Framework",
+      "level": "Intermediate",
+      "icon": "fas fa-database"
+    },
+    {
+      "skill": "LINQ",
+      "level": "Intermediate",
+      "icon": "fas fa-code"
+    },
+    {
+      "skill": "Multithreading",
+      "level": "Intermediate",
+      "icon": "fas fa-tasks"
     },
     {
       "skill": "Blazor",
-      "level": "Senior"      
+      "level": "Intermediate",
+      "icon": "fas fa-desktop"
     }
   ]
 }

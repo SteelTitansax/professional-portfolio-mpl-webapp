@@ -99,8 +99,8 @@ def csharp(request):
         "portfolios": load_json("portfolios"),
         "curriculum": load_json("curriculum"),
         "education": load_json("education"),
-        "fullstackExperience": load_json("fullstackExperience"),
-        "fullstackSkills": load_json("fullstackSkills"),
-        "fullstackProjects": load_json("fullstackProjects")       
+        "csharpExperience": load_json("csharpExperience"),
+        "csharpSkills": load_json("csharpSkills"),
+        "csharpProjects": load_json("csharpProjects")       
     }
-    return render(request, "fullstack_portfolio.html", {"sections": sections})   
+    return render(request, "csharp.html", {"sections": sections})   

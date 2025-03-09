@@ -1,0 +1,28 @@
+{
+    "projects": [
+    {
+      "name": "Walks API",
+      "description": "NZ Walks C# Api secured with JWT (only code available)",
+      "image": "img/apiCsharp.png",
+      "url": "https://github.com/SteelTitansax/cSharpNzWalksAPI" 
+    },
+    {
+      "name": "MVC C# App",
+      "description": "Running Club C# App following the MVC pattern (only code available)",
+      "image": "img/mvc.png",
+      "url": "https://github.com/SteelTitansax/runningClubAlbumDotNet"
+    },
+    {
+      "name": "React + C# App",
+      "description": "Hotel Booking App following the DDD pattern (only code available)",
+      "image": "img/c_sharp.jpeg",
+      "url": "https://github.com/SteelTitansax/cSharpApi/tree/main/Backend"
+    },
+    {
+      "name": "Blazor / .NET App",
+      "description": "Hotel Booking App following the MVC pattern with blazor",
+      "image": "img/blazor.png",
+      "url": "/mp4/billingApp.mp4"
+    }
+  ]
+}
