@@ -103,4 +103,15 @@ def csharp(request):
         "csharpSkills": load_json("csharpSkills"),
         "csharpProjects": load_json("csharpProjects")       
     }
-    return render(request, "csharp.html", {"sections": sections})   
+    return render(request, "csharp.html", {"sections": sections})
+
+def rpa_portfolio(request):
+    sections = {
+        "portfolios": load_json("portfolios"),
+        "curriculum": load_json("curriculum"),
+        "education": load_json("education"),
+        "rpaExperience": load_json("rpaExperience"),
+        "rpaSkills": load_json("rpaSkills"),
+        "rpaProjects": load_json("rpaProjects")       
+    }
+    return render(request, "rpa_portfolio.html", {"sections": sections})   

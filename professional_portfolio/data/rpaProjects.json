@@ -1,0 +1,35 @@
+{
+    "projects": [
+        {
+            "name": "Scripting/Cloud Development",
+            "description":"Please check out the Scripting/Cloud Development section of this portfolio",
+            "image":"img/scripting.jpg",
+            "url":"/scripting"
+        }, {
+            "name": "Selenium",
+            "description":"Please check out the Selenium section of this portfolio",
+            "image":"img/selenium.jpg",
+            "url":"/selenium"
+        }, {
+            "name": "PowerAutomate",
+            "description":"Please check out the PowerAutomate section of this portfolio",
+            "image":"img/powerautomate.jpg",
+            "url":"/powerautomate"
+        }, {
+            "name": "PA Desktop",
+            "description":"Please check out the Power Automate Desktop section of this portfolio",
+            "image":"img/powerautomatedesktop.jpg",
+            "url":"/powerautomatedesktop"
+        },  {
+            "name": "UiPath",
+            "description":"Please check out the UiPath section of this portfolio",
+            "image":"img/uipath.jpg",
+            "url":"/uipath"
+        },  {
+            "name": "Virtual Agents",
+            "description":"Please check our the Virtual Agents section of this portfolio",
+            "image":"img/virtualagents.jpg",
+            "url":"/virtualagents"
+        }
+  ]
+}

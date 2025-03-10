@@ -1,0 +1,45 @@
+{
+    "skills": [
+      {
+        "skill": "Bash",
+        "level": "Advanced",
+        "icon": "fas fa-terminal"
+      },
+      {
+        "skill": "Powershell",
+        "level": "Advanced",
+        "icon": "fas fa-laptop-code"
+      },
+      {
+        "skill": "Python",
+        "level": "Advanced",
+        "icon": "fab fa-python"
+      },
+      {
+        "skill": "Azure functions",
+        "level": "Advanced",
+        "icon": "fas fa-cloud"
+      },
+      {
+        "skill": "Azure Automation",
+        "level": "Advanced",
+        "icon": "fas fa-cogs"
+      },
+      {
+        "skill": "PowerAutomate (Web)/(Desktop)",
+        "level": "Advanced",
+        "icon": "fas fa-plug"
+      },
+      {
+        "skill": "UiPath",
+        "level": "Advanced",
+        "icon": "fas fa-robot"
+      },
+      {
+        "skill": "Azure Devops",
+        "level": "Intermediate",
+        "icon": "fas fa-tools"
+      }
+    ]
+  }
+  
