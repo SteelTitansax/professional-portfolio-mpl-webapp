@@ -1,0 +1,16 @@
+{
+    "projects": [
+        {
+            "name": "User's chatbot ",
+            "description":"Managment user's chatbot developed with Virtual Agents and PowerAutomate",
+            "image":"img/virtualagents.jpg",
+            "url": "/mp4/usersChatbot.mp4"
+        },
+        {
+            "name": "Incidences chatbot ",
+            "description":"Incidences chatbot as append for the Incidences Model Driven App solution",
+            "image":"img/virtualagents.jpg",
+            "url": "/mp4/factoryBot.mp4"
+        }
+  ]
+}

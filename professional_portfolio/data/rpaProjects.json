@@ -19,7 +19,7 @@
             "name": "PA Desktop",
             "description":"Please check out the Power Automate Desktop section of this portfolio",
             "image":"img/powerautomatedesktop.jpg",
-            "url":"/powerautomatedesktop"
+            "url":"/powerautomate-desktop"
         },  {
             "name": "UiPath",
             "description":"Please check out the UiPath section of this portfolio",
@@ -29,7 +29,7 @@
             "name": "Virtual Agents",
             "description":"Please check our the Virtual Agents section of this portfolio",
             "image":"img/virtualagents.jpg",
-            "url":"/virtualagents"
+            "url":"/virtual-agents"
         }
   ]
 }

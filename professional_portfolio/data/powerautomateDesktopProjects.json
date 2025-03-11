@@ -1,0 +1,28 @@
+{
+    "projects": [
+        {
+            "name": "MorningCheck",
+            "description":"Check my powerAutomate automation",
+            "image":"img/powerautomatedesktop.jpg",
+            "url": "/mp4/PadMorningCheck.mp4"
+        },
+          {
+            "name": "PdfExtraction",
+            "description":"Check my powerAutomate automation",
+            "image":"img/powerautomatedesktop.jpg",
+            "url": "/mp4/PadPdfExtraction.mp4"
+        },
+        {
+            "name": "ExcelAutomation",
+            "description":"Check my powerAutomate automation",
+            "image":"img/powerautomatedesktop.jpg",
+            "url": "/mp4/PadExcelAutomation.mp4"
+        },
+        {
+            "name": "PAD Framework",
+            "description":"Check my PAD framework",
+            "image":"img/powerautomatedesktop.jpg",
+            "url": "/mp4/PafDataRowFramework.mp4"
+        }
+    ]
+}

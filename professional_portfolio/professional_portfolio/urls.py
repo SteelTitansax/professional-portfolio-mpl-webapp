@@ -33,7 +33,10 @@ urlpatterns = [
     path('cloud-scripting/',views.cloud_scripting, name='cloud_scripting'),
     path('selenium/',views.selenium, name='selenium'),
     path('powerautomate/',views.powerautomate, name='powerautomate'),
-    path('uipath/',views.uipath, name='uipath')
+    path('powerautomate-desktop/',views.powerautomate_desktop, name='powerautomate_desktop'),
+    path('uipath/',views.uipath, name='uipath'),
+    path('virtual-agents/',views.virtual_agents, name='virtual_agents')
+
 
 
 

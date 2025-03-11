@@ -159,3 +159,25 @@ def uipath(request):
         "uipathProjects": load_json("uipathProjects")       
     }
     return render(request, "uipath.html", {"sections": sections})   
+
+def virtual_agents(request):
+    sections = {
+        "portfolios": load_json("portfolios"),
+        "curriculum": load_json("curriculum"),
+        "education": load_json("education"),
+        "virtualAgentsExperience": load_json("virtualAgentsExperience"),
+        "virtualAgentsSkills": load_json("virtualAgentsSkills"),
+        "virtualAgentsProjects": load_json("virtualAgentsProjects")       
+    }
+    return render(request, "virtual_agents.html", {"sections": sections})   
+
+def powerautomate_desktop(request):
+    sections = {
+        "portfolios": load_json("portfolios"),
+        "curriculum": load_json("curriculum"),
+        "education": load_json("education"),
+        "powerautomateDesktopExperience": load_json("powerautomateDesktopExperience"),
+        "powerautomateDesktopSkills": load_json("powerautomateDesktopSkills"),
+        "powerautomateDesktopProjects": load_json("powerautomateDesktopProjects")       
+    }
+    return render(request, "powerautomate_desktop.html", {"sections": sections})   
