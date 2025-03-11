@@ -1,0 +1,20 @@
+{
+    "skills": [
+      {
+        "skill": "Selenium WebDriver",
+        "level": "Intermediate",
+        "icon": "fas fa-laptop-code"
+      },
+      {
+        "skill": "Selenium Grid",
+        "level": "Intermediate",
+        "icon": "fas fa-network-wired"
+      },
+      {
+        "skill": "Selenium with Python",
+        "level": "Intermediate",
+        "icon": "fab fa-python"
+      }
+    ]
+  }
+  

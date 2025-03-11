@@ -126,3 +126,14 @@ def cloud_scripting(request):
         "cloudScriptingProjects": load_json("cloudScriptingProjects")       
     }
     return render(request, "cloud_scripting.html", {"sections": sections})   
+
+def selenium(request):
+    sections = {
+        "portfolios": load_json("portfolios"),
+        "curriculum": load_json("curriculum"),
+        "education": load_json("education"),
+        "seleniumExperience": load_json("seleniumExperience"),
+        "seleniumSkills": load_json("seleniumSkills"),
+        "seleniumProjects": load_json("seleniumProjects")       
+    }
+    return render(request, "selenium.html", {"sections": sections})   

@@ -1,0 +1,15 @@
+{
+    "projects": [
+        {
+            "name": "Web testing 1",
+            "description":"Check my Selenium test robot",
+            "image":"img/selenium.jpg",
+            "url": "/mp4/selenium1.mp4"
+        }, {
+            "name": "Web testing 2",
+            "description":"Check my Selenium test robot (code not available)",
+            "image":"img/selenium.jpg",
+            "url": "/mp4/selenium2.mp4"
+        }
+  ]
+}

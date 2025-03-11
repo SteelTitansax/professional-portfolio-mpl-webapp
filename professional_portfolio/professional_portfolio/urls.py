@@ -30,5 +30,7 @@ urlpatterns = [
     path('powerApps/',views.powerApps, name='powerApps'),
     path('csharp/',views.csharp, name='csharp'),
     path('rpa-portfolio/',views.rpa_portfolio, name='rpa_porfolio'),
-    path('cloud-scripting/',views.cloud_scripting, name='cloud_scripting')
+    path('cloud-scripting/',views.cloud_scripting, name='cloud_scripting'),
+    path('selenium/',views.selenium, name='selenium')
+
 ]
