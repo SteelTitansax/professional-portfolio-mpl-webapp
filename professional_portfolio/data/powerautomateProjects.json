@@ -1,0 +1,45 @@
+{
+    "projects": [
+        {
+            "name": "Graph Provisioning Automation",
+            "description":"Retrieve Azure tenant users via Azure Graph. Azure Graph Automation PoC",
+            "image":"img/powerautomate.jpg",
+            "url": "/mp4/powerAutomateGraphProvisioning.mp4"
+        },{
+            "name": "Service Degradation Alert",
+            "description":"Retrieve Azure tenant degradated services and send alert email. Azure Graph Automation PoC",
+            "image":"img/powerautomate.jpg",
+            "url": "/mp4/powerAutomateServiceDegradationAlert.mp4"
+        },{
+            "name": "Minute Automation", 
+            "description":"Minute automation starting from MS Teams. Teams and Document Automation PoC",
+            "image":"img/powerautomate.jpg",
+            "url": "/mp4/powerAutomateMinuteAutomation.mp4"
+        },{
+            "name": "Automated Document Creation Automation",
+            "description":"Document creation automation. Document Automation PoC",
+            "image":"img/powerautomate.jpg",
+            "url": "/mp4/powerAutomateDocumentCreation.mp4"
+        }, {
+            "name": "UiPath IQBot PowerAutomate Flow",
+            "description":"UiPath IQBot PowerAutomate automation PoC",
+            "image":"img/powerautomate.jpg",
+            "url": "/mp4/powerAutomateIqBotFlow.mp4"
+        },{
+            "name": "Calendar Teams automation",
+            "description":"Calendar teams automation PoC",
+            "image":"img/powerautomate.jpg",
+            "url": "/mp4/teamsCalendarAutomation.mp4"
+        },{
+            "name": "Office Script Automation",
+            "description":"OfficeScript automation PoC",
+            "image":"img/powerautomate.jpg",
+            "url": "/mp4/powerAutomateOfficeScript.mp4"
+        },{
+            "name": "PowerApp RPA Monitoring Tool",
+            "description":"RPA Monitoring tool app solution",
+            "image":"img/canvas.png",
+            "url": "/mp4/rpaMonitoringApp.mp4"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "skills": [
+      {
+        "skill": "Power Automate",
+        "level": "Intermediate",
+        "icon": "fas fa-robot"
+      },
+      {
+        "skill": "Flow Creation",
+        "level": "Intermediate",
+        "icon": "fas fa-sitemap"
+      },
+      {
+        "skill": "Automated Workflows",
+        "level": "Intermediate",
+        "icon": "fas fa-cogs"
+      },
+      {
+        "skill": "Connectors",
+        "level": "Intermediate",
+        "icon": "fas fa-plug"
+      },
+      {
+        "skill": "Triggers and Actions",
+        "level": "Intermediate",
+        "icon": "fas fa-play-circle"
+      },
+      {
+        "skill": "Error Handling",
+        "level": "Intermediate",
+        "icon": "fas fa-exclamation-triangle"
+      }
+    ]
+  }
+  

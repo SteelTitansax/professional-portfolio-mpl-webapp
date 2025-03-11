@@ -137,3 +137,14 @@ def selenium(request):
         "seleniumProjects": load_json("seleniumProjects")       
     }
     return render(request, "selenium.html", {"sections": sections})   
+
+def powerautomate(request):
+    sections = {
+        "portfolios": load_json("portfolios"),
+        "curriculum": load_json("curriculum"),
+        "education": load_json("education"),
+        "powerautomateExperience": load_json("powerautomateExperience"),
+        "powerautomateSkills": load_json("powerautomateSkills"),
+        "powerautomateProjects": load_json("powerautomateProjects")       
+    }
+    return render(request, "powerautomate.html", {"sections": sections})   
