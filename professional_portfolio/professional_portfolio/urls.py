@@ -32,7 +32,9 @@ urlpatterns = [
     path('rpa-portfolio/',views.rpa_portfolio, name='rpa_porfolio'),
     path('cloud-scripting/',views.cloud_scripting, name='cloud_scripting'),
     path('selenium/',views.selenium, name='selenium'),
-    path('powerautomate/',views.powerautomate, name='powerautomate')
+    path('powerautomate/',views.powerautomate, name='powerautomate'),
+    path('uipath/',views.uipath, name='uipath')
+
 
 
 ]

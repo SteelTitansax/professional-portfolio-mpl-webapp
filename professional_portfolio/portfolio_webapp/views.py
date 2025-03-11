@@ -148,3 +148,14 @@ def powerautomate(request):
         "powerautomateProjects": load_json("powerautomateProjects")       
     }
     return render(request, "powerautomate.html", {"sections": sections})   
+
+def uipath(request):
+    sections = {
+        "portfolios": load_json("portfolios"),
+        "curriculum": load_json("curriculum"),
+        "education": load_json("education"),
+        "uipathExperience": load_json("uipathExperience"),
+        "uipathSkills": load_json("uipathSkills"),
+        "uipathProjects": load_json("uipathProjects")       
+    }
+    return render(request, "uipath.html", {"sections": sections})   

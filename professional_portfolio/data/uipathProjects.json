@@ -1,0 +1,45 @@
+{
+    "projects": [
+        {
+            "name": "RPA0001_InteractionUsers",
+            "description":"UiPath exercise based in interact with MSGraph for retrieving azure users",
+            "image":"img/uipath.jpg",
+            "url": "/mp4/RPA0001GraphInteraction.mp4"
+        },{
+            "name": "RPA0007_DataOrigin",
+            "description":"Sharepoint Handling, Excel and Outlook Manipulation exercise.",
+            "image":"img/uipath.jpg",
+            "url": "/mp4/RPA0007DataOrigin.mp4"
+        },{
+            "name": "RPA0004 Sharepoint",
+            "description":"UiPath exercise based in interact via MSGraph with an Office365 Sharepoint",
+            "image":"img/uipath.jpg",
+            "url": "/mp4/RPA0004SharepointInteraction.mp4"
+        },{
+            "name": "RPA0005 Outlook",
+            "description":"UiPath exercise based in interact via MSGraph with an Office365 Outlook",
+            "image":"img/uipath.jpg",
+            "url": "/mp4/RPA0005OutlookInteraction.mp4"
+        },{
+            "name": "RPA0006 SQL Interaction",
+            "description":"UiPath exercise based in interact with Azure SQL",
+            "image":"img/uipath.jpg",
+            "url": "/mp4/RPA0006SQLInteraction.mp4"
+        },{
+            "name": "RPA0009_OutlookWeekendBlocker",
+            "description":"UiPath exercise, Outlook Weekend Blocker robot",
+            "image":"img/uipath.jpg",
+            "url": "/mp4/RPA0009OutlookWeekendBlocker.mp4"
+        },{
+            "name": "RPA0010_MacroRegexInteraction",
+            "description":"UiPath exercise, Macro data transformation",
+            "image":"img/uipath.jpg",
+            "url": "/mp4/RPA0010MacroRegexInteraction.mp4"
+        },{
+            "name": "RPA0011 PdfRegexExtraction",
+            "description":"UiPath exercise, Regex data extraction",
+            "image":"img/uipath.jpg",
+            "url": "/mp4/RPA0011PdfRegexExtraction.mp4"
+        }
+  ]
+}

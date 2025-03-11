@@ -1,0 +1,35 @@
+{
+    "skills": [
+      {
+        "skill": "UiPath Studio",
+        "level": "Senior",
+        "icon": "fas fa-cogs"
+      },
+      {
+        "skill": "Robotic Process Automation (RPA)",
+        "level": "Senior",
+        "icon": "fas fa-robot"
+      },
+      {
+        "skill": "Workflows",
+        "level": "Senior",
+        "icon": "fas fa-project-diagram"
+      },
+      {
+        "skill": "Orchestrator",
+        "level": "Senior",
+        "icon": "fas fa-cloud"
+      },
+      {
+        "skill": "Data Scraping",
+        "level": "Senior",
+        "icon": "fas fa-file-alt"
+      },
+      {
+        "skill": "Selectors",
+        "level": "Senior",
+        "icon": "fas fa-search"
+      }
+    ]
+  }
+  
