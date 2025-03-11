@@ -115,3 +115,14 @@ def rpa_portfolio(request):
         "rpaProjects": load_json("rpaProjects")       
     }
     return render(request, "rpa_portfolio.html", {"sections": sections})   
+
+def cloud_scripting(request):
+    sections = {
+        "portfolios": load_json("portfolios"),
+        "curriculum": load_json("curriculum"),
+        "education": load_json("education"),
+        "cloudScriptingExperience": load_json("cloudScriptingExperience"),
+        "cloudScriptingSkills": load_json("cloudScriptingSkills"),
+        "cloudScriptingProjects": load_json("cloudScriptingProjects")       
+    }
+    return render(request, "cloud_scripting.html", {"sections": sections})   

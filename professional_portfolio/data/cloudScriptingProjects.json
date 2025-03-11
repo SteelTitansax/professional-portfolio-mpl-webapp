@@ -1,0 +1,45 @@
+{
+    "projects": [
+        {
+            "name": "Api Flask",
+            "description":"Api Flask project coded in python and linked to Sqlite (No demo available)",
+            "image":"img/flask.jpeg",
+            "url":"https://github.com/SteelTitansax/ApiFlask"
+        },{
+            "name": "Automation App",
+            "description":"Automation App coded in React and Flask",
+            "image":"img/flask.jpeg",
+            "url": "/mp4/flaskRpaPythonLauncher.mp4"
+        },{
+            "name": "Azure Function - Graph interaction",
+            "description":"Azure function exercise. Azure Graph Interaction.(No demo available)",
+            "image":"img/AzureFunctions.jpg",
+            "url":"https://github.com/SteelTitansax/AzureFunctionGraph"
+        },{
+            "name": "Azure Function - image Recognition",
+            "description":"Blob storage trigger connect with image Recognition for image classification tasks",
+            "image":"img/AzureFunctions.jpg",
+            "url": "/mp4/imageRecognitionAfunction.mp4"
+        },{
+            "name": "Azure Function - Approvals funtion",
+            "description":" Http request triggers interconnected with an approvals adaptative card",
+            "image":"img/AzureFunctions.jpg",
+            "url": "/mp4/approvalsFunction.mp4"
+        },{
+            "name": "Azure Function - Cosmos Energy Prediction",
+            "description":" Cosmos trigger function predicts energy consum via internal ML model",
+            "image":"img/AzureFunctions.jpg",
+            "url": "/mp4/afunctionCosmosDb.mp4"
+        },{
+            "name": "Azure Automation - VM Automation",
+            "description":"Azure Automation. VM manipulation exercise.",
+            "image":"img/AzureAutomation.jpg",
+            "url": "/mp4/vmAutomation.mp4"
+        },{
+            "name": "Django REST Framework API",
+            "description":"Django authenticated API exercise.(no demo)",
+            "image":"img/django.jpeg",
+            "url":"https://github.com/SteelTitansax/django-rest-framework-api"
+        }
+  ]
+}

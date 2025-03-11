@@ -1,0 +1,11 @@
+{
+    "experiences": 
+    [
+           {
+              "title": "Cloud Scripting",
+              "subtitle": "Cloud scripting refers to the process of writing and executing scripts in a cloud environment to automate tasks, manage resources, and configure services. It involves using cloud-native languages and tools, such as AWS Lambda, Google Cloud Functions, or Azure Functions, to streamline operations, perform data processing, and integrate various cloud services without managing traditional servers. Cloud scripting enables scalability, flexibility, and cost efficiency for cloud-based applications.",
+              "date": "Jun 2019 - Current"
+                      
+          }
+      ]
+  }

@@ -1,0 +1,25 @@
+{
+    "skills": [
+      {
+        "skill": "Azure Functions",
+        "level": "Intermediate",
+        "icon": "fas fa-cloud-upload-alt"
+      },
+      {
+        "skill": "Azure Logic Apps",
+        "level": "Intermediate",
+        "icon": "fas fa-cogs"
+      },
+      {
+        "skill": "Azure DevOps",
+        "level": "Intermediate",
+        "icon": "fas fa-wrench"
+      },
+      {
+        "skill": "Azure Automation",
+        "level": "Intermediate",
+        "icon": "fas fa-cogs"
+      }
+    ]
+  }
+  

@@ -29,6 +29,6 @@ urlpatterns = [
     path('djangoFlask/',views.djangoFlask, name='flaskDjango'),
     path('powerApps/',views.powerApps, name='powerApps'),
     path('csharp/',views.csharp, name='csharp'),
-    path('rpa-portfolio/',views.rpa_portfolio, name='rpa_porfolio')
-
+    path('rpa-portfolio/',views.rpa_portfolio, name='rpa_porfolio'),
+    path('cloud-scripting/',views.cloud_scripting, name='cloud_scripting')
 ]
