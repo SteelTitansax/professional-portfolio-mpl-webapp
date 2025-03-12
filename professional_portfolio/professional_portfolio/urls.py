@@ -40,7 +40,9 @@ urlpatterns = [
     path('supervisedlearning/',views.supervisedlearning, name='supervisedlearning'),
     path('unsupervisedlearning/',views.unsupervisedlearning, name='unsupervisedlearning'),
     path('industry40-portfolio/',views.industry40_portfolio, name='industry40_portfolio'),
-    path('industrialapplications/',views.industrialapplications, name='industrialapplications')
+    path('industrialapplications/',views.industrialapplications, name='industrialapplications'),
+    path('industrialsimulations/',views.industrialsimulations, name='industrialsimulations')
+
 
 
 

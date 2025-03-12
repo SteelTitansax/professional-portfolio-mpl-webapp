@@ -1,24 +1,34 @@
 {
   "skills": [
     {
-      "skill": "Automation and Control Systems",
-      "level": "Expert",
+      "skill": "Components",
+      "level": "Intermediate",
       "icon": "fas fa-cogs"
     },
     {
-      "skill": "Data Analytics and Visualization",
-      "level": "Advanced",
-      "icon": "fas fa-chart-bar"
-    },
-    {
-      "skill": "Machine Learning for Industrial Applications",
+      "skill": "Cicle Life",
       "level": "Intermediate",
-      "icon": "fas fa-brain"
+      "icon": "fas fa-sync-alt"
     },
     {
-      "skill": "Energy Management",
-      "level": "Advanced",
-      "icon": "fas fa-bolt"
+      "skill": "Routes",
+      "level": "Intermediate",
+      "icon": "fas fa-route"
+    },
+    {
+      "skill": "Structure",
+      "level": "Intermediate",
+      "icon": "fas fa-sitemap"
+    },
+    {
+      "skill": "Testing",
+      "level": "Intermediate",
+      "icon": "fas fa-vial"
+    },
+    {
+      "skill": "Mobile",
+      "level": "Intermediate",
+      "icon": "fas fa-mobile-alt"
     }
   ]
 }

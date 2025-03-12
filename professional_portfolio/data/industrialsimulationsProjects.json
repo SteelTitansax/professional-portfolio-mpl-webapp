@@ -1,0 +1,41 @@
+{
+    "projects": [ 
+    
+    {
+        "name": "CSTR Series Simulation",
+        "description":"Check my CSTR Series Reactor Simulation demo",
+        "image":"img/CSTR_Serie.png",
+        "url": "/mp4/cstrSeriesSimulator.mp4"
+    }
+    , {
+        "name": "Nafta's Reactor Simulation",
+        "description":"Check my Nafta's Reactor Simulation demo",
+        "image":"img/NaftasReactor.png",
+        "url": "/mp4/naftaReactorSimulator.mp4"
+        }, {
+        "name": "SBR Reactor Simulation",
+        "description":"Check my SBR Reactor Simulation demo",
+        "image":"img/SBR.png",
+        "url": "/mp4/sbrSimulator.mp4"
+        }, {
+        "name": "Beer Industrial Process Simulator",
+        "description":"Check my Industrial Simulator App demo",
+        "image":"img/BeerIndustry.png",
+        "url": "/mp4/beerProcessSimulator.mp4"
+    }
+    
+    , {
+        "name": "Bubble Column Reactor Simulator",
+        "description":"Check my BCR simulator demo",
+        "image":"img/BubbleColumnReactor.png",
+        "url": "/mp4/bubbleColumnSimulator.mp4"
+    }
+    , {
+        "name": "Tank Designer Simulator",
+        "description":"Check my Tank designer app demo",
+        "image":"img/TankDesigner.png",
+        "url": "/mp4/tankDesigner.mp4"
+    }
+    ]
+
+}

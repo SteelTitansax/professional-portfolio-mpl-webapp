@@ -240,3 +240,15 @@ def industrialapplications(request):
         "industrialapplicationsProjects": load_json("industrialapplicationsProjects")       
     }
     return render(request, "industrialapplications.html", {"sections": sections})   
+
+
+def industrialsimulations(request):
+    sections = {
+        "portfolios": load_json("portfolios"),
+        "curriculum": load_json("curriculum"),
+        "education": load_json("education"),
+        "industrialsimulationsExperience": load_json("industrialsimulationsExperience"),
+        "industrialsimulationsSkills": load_json("industrialsimulationsSkills"),
+        "industrialsimulationsProjects": load_json("industrialsimulationsProjects")       
+    }
+    return render(request, "industrialsimulations.html", {"sections": sections})   

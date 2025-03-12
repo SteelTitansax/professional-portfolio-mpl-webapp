@@ -1,0 +1,25 @@
+{
+  "skills": [
+   
+    {
+      "skill": "Cloud Computing for Simulation Data",
+      "level": "Intermediate",
+      "icon": "fas fa-cloud"
+    },
+    {
+      "skill": "Virtualization and Simulation Environments",
+      "level": "Advanced",
+      "icon": "fas fa-desktop"
+    },
+    {
+      "skill": "Data Analytics for Simulation Results",
+      "level": "Advanced",
+      "icon": "fas fa-chart-bar"
+    },
+    {
+      "skill": "Machine Learning for Simulations",
+      "level": "Intermediate",
+      "icon": "fas fa-brain"
+    }
+  ]
+}
