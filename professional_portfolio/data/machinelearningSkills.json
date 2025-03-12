@@ -1,0 +1,46 @@
+{
+    "skills": [
+      {
+        "skill": "Python",
+        "level": "Intermediate",
+        "icon": "fab fa-python"
+      },
+      {
+        "skill": "TensorFlow",
+        "level": "Expert",
+        "icon": "fas fa-cogs"
+      },
+      {
+        "skill": "Keras",
+        "level": "Intermediate",
+        "icon": "fas fa-code"
+      },
+      {
+        "skill": "PyTorch",
+        "level": "Intermediate",
+        "icon": "fas fa-laptop-code"
+      },
+      {
+        "skill": "Scikit-learn",
+        "level": "Advanced",
+        "icon": "fas fa-database"
+      },
+      {
+        "skill": "Data Preprocessing",
+        "level": "Advanced",
+        "icon": "fas fa-clipboard-list"
+      },
+      {
+        "skill": "Model Deployment",
+        "level": "Intermediate",
+        "icon": "fas fa-cloud-upload-alt"
+      },
+      {
+        "skill": "Mathematics and Statistics",
+        "level": "Expert",
+        "icon": "fas fa-superscript"
+      }
+      
+    ]
+  }
+  

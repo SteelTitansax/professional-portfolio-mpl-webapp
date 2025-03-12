@@ -181,3 +181,15 @@ def powerautomate_desktop(request):
         "powerautomateDesktopProjects": load_json("powerautomateDesktopProjects")       
     }
     return render(request, "powerautomate_desktop.html", {"sections": sections})   
+
+
+def machinelearning_portfolio(request):
+    sections = {
+        "portfolios": load_json("portfolios"),
+        "curriculum": load_json("curriculum"),
+        "education": load_json("education"),
+        "machinelearningExperience": load_json("machinelearningExperience"),
+        "machinelearningSkills": load_json("machinelearningSkills"),
+        "machinelearningProjects": load_json("machinelearningProjects")       
+    }
+    return render(request, "machinelearning_portfolio.html", {"sections": sections})   
