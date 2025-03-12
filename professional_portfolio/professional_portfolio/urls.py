@@ -37,7 +37,9 @@ urlpatterns = [
     path('uipath/',views.uipath, name='uipath'),
     path('virtual-agents/',views.virtual_agents, name='virtual_agents'),
     path('machinelearning-portfolio/',views.machinelearning_portfolio, name='machinelearning_portfolio'),
-    path('supervisedlearning/',views.supervisedlearning, name='supervisedlearning')
+    path('supervisedlearning/',views.supervisedlearning, name='supervisedlearning'),
+    path('unsupervisedlearning/',views.unsupervisedlearning, name='unsupervisedlearning')
+
 
 
 

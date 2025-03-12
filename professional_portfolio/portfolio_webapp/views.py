@@ -204,3 +204,14 @@ def supervisedlearning(request):
         "supervisedlearningProjects": load_json("supervisedlearningProjects")       
     }
     return render(request, "supervisedlearning.html", {"sections": sections})   
+
+def unsupervisedlearning(request):
+    sections = {
+        "portfolios": load_json("portfolios"),
+        "curriculum": load_json("curriculum"),
+        "education": load_json("education"),
+        "unsupervisedlearningExperience": load_json("unsupervisedlearningExperience"),
+        "unsupervisedlearningSkills": load_json("unsupervisedlearningSkills"),
+        "unsupervisedlearningProjects": load_json("unsupervisedlearningProjects")       
+    }
+    return render(request, "unsupervisedlearning.html", {"sections": sections})   

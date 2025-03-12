@@ -1,0 +1,44 @@
+{
+  "skills": [
+    {
+      "skill": "Python",
+      "level": "Advanced",
+      "icon": "fab fa-python"
+    },
+    {
+      "skill": "Scikit-learn",
+      "level": "Advanced",
+      "icon": "fas fa-database"
+    },
+    {
+      "skill": "TensorFlow/PyTorch",
+      "level": "Intermediate",
+      "icon": "fas fa-microchip"
+    },
+    {
+      "skill": "Clustering Algorithms",
+      "level": "Expert",
+      "icon": "fas fa-object-group"
+    },
+    {
+      "skill": "Dimensionality Reduction",
+      "level": "Expert",
+      "icon": "fas fa-compress"
+    },
+    {
+      "skill": "Anomaly Detection",
+      "level": "Advanced",
+      "icon": "fas fa-exclamation-triangle"
+    },
+    {
+      "skill": "Data Preprocessing",
+      "level": "Advanced",
+      "icon": "fas fa-clipboard-list"
+    },
+    {
+      "skill": "Mathematics and Statistics",
+      "level": "Expert",
+      "icon": "fas fa-superscript"
+    }
+  ]
+}

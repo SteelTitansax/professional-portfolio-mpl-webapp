@@ -1,0 +1,16 @@
+{
+    "projects": [
+        {
+            "name": "Snake ML",
+            "description":"IQModel implemented in ML snake",
+            "image":"img/Snake.png",
+            "url": "/mp4/snakeML.mp4"
+        },
+         {
+            "name": "Python OpenAi Chatbot",
+            "description":"Python AzureOpenAi Chatbot (Django + GenAi) (No demo)",
+            "image":"img/python.jpg",
+            "url":""
+        }
+  ]
+}

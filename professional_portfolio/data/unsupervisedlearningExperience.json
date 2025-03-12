@@ -1,0 +1,11 @@
+{
+    "experiences": 
+    [
+           {
+              "title": "Unsupervised learning",
+              "subtitle": "Unsupervised learning is a type of machine learning where the model identifies patterns and structures in data without labeled examples or supervision. It is used for clustering and dimensionality reduction.",
+              "date": "Jun 2024 - Current"
+                      
+          }
+      ]
+  }
