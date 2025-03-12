@@ -4,7 +4,7 @@
             "name": "Energy Prediction",
             "description":"Energy model development and wrappers implementation",
             "image":"img/functions.jpg",
-            "url":"https://www.youtube.com/watch?v=qn8LNjUv42U"
+            "url": "/mp4/energyPredictionModel.mp4"
         },
          {
             "name": "Medical Flask App",
@@ -15,7 +15,7 @@
             "name": "SBR Reactor Simulation",
             "description":"Check my SBR Reactor Simulation demo",
             "image":"img/SBR.png",
-            "url":"https://www.youtube.com/watch?v=o-NajRdfabA"
+            "url": "/mp4/sbrSimulator.mp4"
         } 
   ]
 }
