@@ -1,0 +1,24 @@
+{
+    "projects": [ 
+    
+    {
+        "name": "Warehouse app",
+        "description":"Check my Materials Management app demo",
+        "image":"img/Warehouse.png",
+        "url": "/mp4/warehouseManagementApp.mp4"
+    }
+    , {
+        "name": "Industrial Report App",
+        "description":"Check my Industrial Report app demo",
+        "image":"img/industrialreport.png",
+        "url": "/mp4/industrialReport.mp4"
+        }, {
+        "name": "Warehouse PowerBI Map",
+        "description":"Check my Warehouse PowerBI Map demo",
+        "image":"img/web.jpg",
+        "url": "/mp4/warehouseMapBI.mp4"
+    }
+
+    ]
+
+}

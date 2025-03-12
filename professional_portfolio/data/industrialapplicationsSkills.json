@@ -1,0 +1,24 @@
+{
+  "skills": [
+    {
+      "skill": "Automation and Control Systems",
+      "level": "Expert",
+      "icon": "fas fa-cogs"
+    },
+    {
+      "skill": "Data Analytics and Visualization",
+      "level": "Advanced",
+      "icon": "fas fa-chart-bar"
+    },
+    {
+      "skill": "Machine Learning for Industrial Applications",
+      "level": "Intermediate",
+      "icon": "fas fa-brain"
+    },
+    {
+      "skill": "Energy Management",
+      "level": "Advanced",
+      "icon": "fas fa-bolt"
+    }
+  ]
+}

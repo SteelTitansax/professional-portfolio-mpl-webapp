@@ -39,7 +39,9 @@ urlpatterns = [
     path('machinelearning-portfolio/',views.machinelearning_portfolio, name='machinelearning_portfolio'),
     path('supervisedlearning/',views.supervisedlearning, name='supervisedlearning'),
     path('unsupervisedlearning/',views.unsupervisedlearning, name='unsupervisedlearning'),
-    path('industry40-portfolio/',views.industry40_portfolio, name='industry40_portfolio')
+    path('industry40-portfolio/',views.industry40_portfolio, name='industry40_portfolio'),
+    path('industrialapplications/',views.industrialapplications, name='industrialapplications')
+
 
 
 
