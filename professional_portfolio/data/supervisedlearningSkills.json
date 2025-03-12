@@ -1,0 +1,24 @@
+{
+  "skills": [
+    {
+      "skill": "Python",
+      "level": "Intermediate",
+      "icon": "fab fa-python"
+    },
+    {
+      "skill": "Scikit-learn",
+      "level": "Advanced",
+      "icon": "fas fa-database"
+    },
+    {
+      "skill": "Data Preprocessing",
+      "level": "Advanced",
+      "icon": "fas fa-clipboard-list"
+    },
+    {
+      "skill": "Mathematics and Statistics",
+      "level": "Expert",
+      "icon": "fas fa-superscript"
+    }
+  ]
+}

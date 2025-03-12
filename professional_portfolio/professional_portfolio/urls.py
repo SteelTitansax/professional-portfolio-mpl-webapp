@@ -36,7 +36,9 @@ urlpatterns = [
     path('powerautomate-desktop/',views.powerautomate_desktop, name='powerautomate_desktop'),
     path('uipath/',views.uipath, name='uipath'),
     path('virtual-agents/',views.virtual_agents, name='virtual_agents'),
-    path('machinelearning-portfolio/',views.machinelearning_portfolio, name='machinelearning_portfolio')
+    path('machinelearning-portfolio/',views.machinelearning_portfolio, name='machinelearning_portfolio'),
+    path('supervisedlearning/',views.supervisedlearning, name='supervisedlearning')
+
 
 
 

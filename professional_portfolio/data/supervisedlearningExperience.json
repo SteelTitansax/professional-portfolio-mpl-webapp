@@ -1,0 +1,11 @@
+{
+    "experiences": 
+    [
+           {
+              "title": "Supervised learning",
+              "subtitle": "Supervised learning is a type of machine learning where a model is trained on labeled data, learning to map inputs to correct outputs. The goal is to minimize error and generalize patterns for new data.",
+              "date": "Jun 2024 - Current"
+                      
+          }
+      ]
+  }

@@ -5,13 +5,13 @@
             "name": "Supervised learning",
             "description":"Check the supervised learning section of this portfolio",
             "image":"img/supervised.png",
-            "url":"/supervised"
+            "url":"/supervisedlearning"
         },
         {
             "name": "Unsupervised learning",
             "description":"Check the Unsupervised learning section of this portfolio",
             "image":"img/unsupervised.png",
-            "url":"/unsupervised"
+            "url":"/unsupervisedlearning"
         }
     
     ]

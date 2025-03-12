@@ -193,3 +193,14 @@ def machinelearning_portfolio(request):
         "machinelearningProjects": load_json("machinelearningProjects")       
     }
     return render(request, "machinelearning_portfolio.html", {"sections": sections})   
+
+def supervisedlearning(request):
+    sections = {
+        "portfolios": load_json("portfolios"),
+        "curriculum": load_json("curriculum"),
+        "education": load_json("education"),
+        "supervisedlearningExperience": load_json("supervisedlearningExperience"),
+        "supervisedlearningSkills": load_json("supervisedlearningSkills"),
+        "supervisedlearningProjects": load_json("supervisedlearningProjects")       
+    }
+    return render(request, "supervisedlearning.html", {"sections": sections})   
