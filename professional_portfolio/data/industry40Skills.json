@@ -1,0 +1,34 @@
+{
+  "skills": [
+    {
+      "skill": "Internet of Things (IoT)",
+      "level": "Advanced",
+      "icon": "fas fa-network-wired"
+    },
+    {
+      "skill": "Artificial Intelligence (AI)",
+      "level": "Expert",
+      "icon": "fas fa-brain"
+    },
+    {
+      "skill": "Big Data Analytics",
+      "level": "Advanced",
+      "icon": "fas fa-database"
+    },
+    {
+      "skill": "Cyber-Physical Systems",
+      "level": "Intermediate",
+      "icon": "fas fa-cogs"
+    },
+    {
+      "skill": "Cloud Computing",
+      "level": "Advanced",
+      "icon": "fas fa-cloud"
+    },
+    {
+      "skill": "Robotics and Automation",
+      "level": "Expert",
+      "icon": "fas fa-robot"
+    }
+  ]
+}

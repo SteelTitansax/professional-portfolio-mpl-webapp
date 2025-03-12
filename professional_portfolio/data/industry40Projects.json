@@ -1,0 +1,18 @@
+{
+    "projects": [
+
+        {
+            "name": "Industrial Applications",
+            "description":"Please check the industrial applications section of this PortFolio",
+            "image":"img/Industry40apps.png",
+            "url":"/industryapps"
+        },
+        {
+            "name": "Industrial Simulations",
+            "description":"Please check the industrial simulations section of this PortFolio",
+            "image":"img/Industry40simulations.png",
+            "url":"/industrysimulations"
+        }
+    
+    ]
+}

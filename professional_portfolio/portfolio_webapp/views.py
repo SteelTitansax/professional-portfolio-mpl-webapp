@@ -215,3 +215,15 @@ def unsupervisedlearning(request):
         "unsupervisedlearningProjects": load_json("unsupervisedlearningProjects")       
     }
     return render(request, "unsupervisedlearning.html", {"sections": sections})   
+
+
+def industry40_portfolio(request):
+    sections = {
+        "portfolios": load_json("portfolios"),
+        "curriculum": load_json("curriculum"),
+        "education": load_json("education"),
+        "industry40Experience": load_json("industry40Experience"),
+        "industry40Skills": load_json("industry40Skills"),
+        "industry40Projects": load_json("industry40Projects")       
+    }
+    return render(request, "industry40.html", {"sections": sections})   
