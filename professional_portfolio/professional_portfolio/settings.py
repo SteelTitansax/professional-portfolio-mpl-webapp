@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-9bkh$fmr_nqs%-7nln2n+%hm)gryppp0(=7pb(8e)5jp-^g1@s'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['manuel-portero-professional-website.azurewebsites.net']
+ALLOWED_HOSTS = ['manuel-portero-professional-website.azurewebsites.net','127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -123,11 +123,10 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "portfolio_webapp/static"),  # Path where static files are 
 ]
 
-
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-X_FRAME_OPTIONS = 'DENY'
+X_FRAME_OPTIONS = 'SAMEORIGIN'
