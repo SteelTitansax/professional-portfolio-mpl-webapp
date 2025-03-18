@@ -20,7 +20,7 @@
 <div class="education-section container bg-white p-2 rounded mt-3 mb-3">
     <div class="row">
         {% for skill in sections.industrialapplicationsSkills.skills %}
-        <div class="col-md-3 text-center mt-2 mb-2">
+        <div class="col-md-4 text-center mt-2 mb-2">
             <i class="{{ skill.icon }} education-icon"
                data-bs-toggle="tooltip" title="{{skill.skill}} Level : {{ skill.level }}"></i>
             
@@ -43,7 +43,7 @@
                 data-pdf="{% static project.url %}"
                 data-bs-toggle="modal" data-bs-target="#auxModal"/>
             {% else %}
-            <a href="{{ project.url }}">
+            <a href="{{ project.url }}" target="_blank">
                 <img class="navbar-icons project-image" 
                     data-bs-toggle="tooltip" 
                     title="{{ project.name }} - {{ project.description }}" 
