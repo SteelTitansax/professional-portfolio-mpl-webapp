@@ -1,0 +1,246 @@
+/* General styles*/
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    overflow-y: hidden;
+    
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.text-body-primary {
+    color: #E53935;
+}
+
+.left-navbar {
+    background-color: #212329;
+    height: 100vh;
+    padding: 40px;
+    position: sticky;
+    top: 0;
+    width: 35%;
+    color: white;
+}
+
+.profile-image {
+    width: 30%; 
+    border-radius: 100px!important;
+    margin-left: 35%;
+}
+
+.title {
+    margin-top: 15px;
+    color: #fafafa;
+    text-align: center;
+    font-size:32px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #dfdfdf !important;
+    font-size: 18px;
+}
+
+.text-body {
+    margin-top: 15px;
+    color: #dfdfdf !important;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 16px;
+    margin-left: 8%;
+    margin-right: 8%;
+
+}
+
+.navbar-nav {
+    margin-left: 10.5%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 8px;
+    width: 100%;
+    font-size: 14px;
+  }
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color:white;
+}
+
+/* Sección de Experiencia */
+.experience-section {
+    font-size: 24px;
+    max-width: 85%; 
+    margin: auto; /* Centrar contenido */
+}
+
+.experience-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.experience-subtitle {
+    font-size: 16px;
+    color: #666;
+    font-weight:500px;
+}
+
+.experience-date {
+    font-size: 12px;
+    color: #666;
+    font-weight: bold;
+}
+
+.experience-body {
+    font-size: 12px;
+    color: #666;
+    text-align: justify;
+    text-justify: inter-word;     
+}
+
+
+
+/* Ajustar columnas de experiencia */
+.experience-section .col-md-6 {
+    flex: 0 0 48%;
+    max-width: 48%;
+
+}
+
+.experience-section
+{
+    padding-left: 60px;
+}
+
+/* Sección de Educación */
+.education-section {
+    max-width: 85%; /* Asegurar que ocupe casi todo el ancho */
+    margin: auto; /* Centrar contenido */
+}
+
+.education-title {
+    font-size: 10px;
+    font-weight: bold;
+    color: #666;
+
+}
+
+.education-subtitle {
+    font-size: 10px;
+    color: #666;
+}
+
+.education-icon {
+    padding-top:10px;
+    font-size: 26px;
+    color: #333;
+    
+}
+
+.education-icon:hover {
+    padding-top:10px;
+    font-size: 26px;
+    color: #333;
+    transform: scale(1.5);
+}
+
+
+/* Ajustar columnas de educación */
+.education-section .col-md-2 {
+    flex: 0 0 16%;
+    max-width: 16%;
+}
+
+/* Ajustar tamaño de las imágenes */
+.experience-section img {
+    width: 15%;
+    padding-left: 10px;
+    
+  }
+
+/* Ajustar tamaño de las imágenes */
+.experience-section img:hover {
+    width: 15%;
+    padding-left: 10px;
+    transform: scale(1.18);
+  }
+
+.education-section img {
+    width: 14%;
+}
+
+.education-section img:hover {
+    width: 14%;
+    transform: scale(1.18);
+
+}
+
+/* Ajustes generales para el right-body */
+.right-body {
+    position: absolute;
+    top: 0;
+    left: 35%; 
+    width: 65%; 
+    height: 100vh;
+    padding: 40px;
+    background-color: #f5f5f5;
+    color: #212329;
+    overflow-y: auto;
+}
+
+.rounded {
+    border-radius: 100px!important;
+}
+
+.navbar-icons
+{
+    width :60px !important;
+}
+
+.home-icons
+{
+    width :45px !important;
+}
+
+.home-icons:hover
+{
+    width :45px !important;
+    transform: scale(1.18);
+
+}
+ 
+.project-icon
+{
+    width :65% !important;
+}
+
+.project-icon:hover
+{
+    width :65% !important;
+    transform: scale(1.18);
+
+}
+
+.project-image
+{
+    width :65% !important;
+}
+
+.project-image:hover
+{
+    width :65% !important;
+    transform: scale(1.18);
+
+}
+
+.little-text {
+    padding-top: 25px;
+    color: #dfdfdf !important;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.little-text:hover {
+    color: #ffffff !important;
+}

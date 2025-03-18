@@ -17,6 +17,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from portfolio_webapp import views
+from django.conf.urls.static import static
+from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -41,14 +43,7 @@ urlpatterns = [
     path('industry40-portfolio/',views.industry40_portfolio, name='industry40_portfolio'),
     path('industrialapplications/',views.industrialapplications, name='industrialapplications'),
     path('industrialsimulations/',views.industrialsimulations, name='industrialsimulations')
-
-
-
-
-
-
-
-
-
-
 ]
+
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+
