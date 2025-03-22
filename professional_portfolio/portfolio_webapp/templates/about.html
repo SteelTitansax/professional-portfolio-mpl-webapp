@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="text-center about-tittle">
+    <p>Django Powered Portfolio: 2019-</p>
+</div>
+
+<div class="mt-4" style="margin-left: 100px; margin-right: 100px;">
+    <p style="text-align: justify;">I started building this portfolio in 2019 to prove my knowledge in Fullstack Development, RPA, Machine Learning, and Industry 4.0. My goal was to showcase my ability to develop scalable web applications using Blazor and Node.js, automate workflows with UiPath, and apply AI models for predictive maintenance and industrial optimization.</p> 
+    <p style="text-align: justify;">Over the years, I have integrated IoT, cloud computing, and digital twins to enhance efficiency and decision-making in industrial processes. Through case studies, I demonstrate how I improve workflows with automation, AI-driven insights, and smart technologies.</p>
+    <p style="text-align: justify;">My portfolio includes technical blogs, GitHub projects, and real-world applications, reflecting my passion for innovation at the intersection of software, automation, and industry.</p>
+</div>
+<img src="{% static 'img/about.png' %}" class="profile-image" style="margin-top: 110px;" alt="about-image">
+
+{% endblock %}

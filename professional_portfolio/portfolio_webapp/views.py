@@ -17,6 +17,15 @@ def home(request):
 
     return render(request, "home.html", {"sections": sections})
 
+def about(request):
+    sections = {
+        "portfolios": load_json("portfolios"),
+        "curriculum": load_json("curriculum"),
+        "education": load_json("education")
+    }
+
+    return render(request, "about.html", {"sections": sections})
+
 def fullstack_portfolio(request):
     sections = {
         "portfolios": load_json("portfolios"),

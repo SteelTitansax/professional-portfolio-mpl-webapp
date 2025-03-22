@@ -234,13 +234,13 @@ body {
 
 }
 
-.little-text {
+.about-tittle {
     padding-top: 25px;
     color: #dfdfdf !important;
     font-size: 10px;
     font-weight: 400;
 }
 
-.little-text:hover {
+.about-tittle:hover {
     color: #ffffff !important;
 }

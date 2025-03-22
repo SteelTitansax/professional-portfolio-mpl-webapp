@@ -32,5 +32,5 @@ document.addEventListener("DOMContentLoaded", function () {
     // Show actual year in footer
     var yearSpan = document.createElement("span");
     yearSpan.textContent = new Date().getFullYear();
-    document.querySelector(".little-text p").appendChild(yearSpan);
+    document.querySelector(".about-tittle p").appendChild(yearSpan);
 });

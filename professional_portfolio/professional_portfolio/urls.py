@@ -23,6 +23,7 @@ from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.home, name='home'),
+    path('about/',views.about, name='about'),
     path('fullstack-portfolio/',views.fullstack_portfolio, name='fullstack_portfolio'),
     path('react/',views.react, name='react'),
     path('angular/',views.angular, name='angular'),
