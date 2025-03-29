@@ -10,7 +10,7 @@
             "name": "Python OpenAi Chatbot",
             "description":"Python AzureOpenAi Chatbot (Django + GenAi) (No demo)",
             "image":"img/python.jpg",
-            "url":""
+            "url":"/mp4/openai_chatbot.mp4"
         }
   ]
 }

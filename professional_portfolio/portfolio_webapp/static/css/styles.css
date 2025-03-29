@@ -55,14 +55,10 @@ body {
 
 }
 
-.navbar-nav {
-    margin-left: 8.7%;
-    overflow: hidden;
-    position: fixed;
-    bottom: 50px;
-    width: 100%;
-    font-size: 14px;
-  }
+.navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: center;
+}
 
 .navbar-expand-lg .navbar-nav .nav-link {
     color:white;
@@ -238,4 +234,79 @@ body {
     padding-top: 25px;
     font-size: 24px;
     font-weight: 400;
+}
+
+
+@media (max-width: 1600px) { /* Tablet layout */
+    .curriculum-block {
+        display: none !important; 
+    }
+
+    .left-navbar {
+        height: 100vh; 
+    }
+
+    .title .portfolio-title .education-title{
+        font-size: 21px; 
+    }
+
+    .subtitle {
+        font-size: 12px; 
+    }
+
+    .text-body {
+        font-size: 11px; 
+
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color:white;
+        font-size: small;
+    }
+    
+    .right-body {
+        width: 65%; 
+        padding-bottom: 120px; 
+        overflow-x: auto; 
+    }
+
+    .experience-image
+    {
+        display: none !important; 
+    }
+
+    
+    .modal-dialog {
+        width: 80% !important;  
+        height: 80% !important; 
+        max-width: 80% !important;
+        max-height: 80% !important;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+    }
+
+    .modal-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+   
+    iframe {
+        border: 0;
+        width: 100%;
+        height: 80%;
+        margin-top: 40px;
+    }
+
+}
+
+@media (max-width: 600px) { 
+
+    .standard-layout
+    {
+        display:none;
+    }
 }

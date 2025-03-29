@@ -12,91 +12,97 @@
     <title>Manuel Portero</title>
 </head>
 <body>
-    <div class="left-navbar mt-2">
-      
-        <img src="{% static 'img/perfil.jpeg' %}" class="profile-image" alt="profile-image">
-        <div>
-            <h1 class="title">Manuel Portero</h1>
-            <h5 class="subtitle">Software Developer / Industrial Engineer</h5>
-            <p class="text-body">Well educated <span class="text-body-primary">Software developer</span> and <span class="text-body-primary">Industrial Engineer</span>. An <span class="text-body-primary">analytical</span>, good <span class="text-body-primary"> problem solver</span> and effective professional.
-            Good <span class="text-body-primary">communicative education</span> with people who do not have a scientific or engineering background.
-            </p>
-        </div>
 
-        <h4 class="text-center mt-2 mb-3 "><bold>Portfolios</bold></h4>
-        <div class="experience-section container bg-white p-3 rounded">
-            <div class="row">
-                {% for item in sections.portfolios.portfolios %}
-                    <div class="col-md-3 text-center">
-                        <a href="/{{ item.url }}"><img class="navbar-icons" data-bs-toggle="tooltip" title="{{ item.tooltip }}" src="{% static '' %}{{ item.image }}" /></a>
-                    </div>
-                {% endfor %}                
-            </div>
-        </div>    
-
-        <h4 class="text-center mb-3 mt-3">Curriculum Vitae</h4>
-        <div class="experience-section container bg-white p-3 mt-2 rounded">
-            <div class="row">
-                {% for item in sections.curriculum.curriculum %}
-                    <div class="col-md-3 text-center">
-                        <img class="navbar-icons curriculum-icon" 
-                            data-bs-toggle="tooltip" 
-                            title="{{ item.tooltip }}" 
-                            src="{% static item.image %}" 
-                            data-pdf="{% if item.pdf|slice:":4" == "http" %}{{ item.pdf }}{% else %}/{{ item.pdf }}{% endif %}" 
-                            data-bs-toggle="modal" data-bs-target="#auxModal"/>
-                    </div>
-                {% endfor %}    
-
-            </div>
-        </div>
-
-        <h4 class="text-center mt-3 mb-3">Education</h4>
-        <div class="education-section container bg-white pt-4 pb-4 rounded">
-            <div class="row">
-                {% for item in sections.education.education %}
-                    <div class="col-md-2 text-center mb-3">
-                        <i class="{{ item.icon }} education-icon"
-                        data-bs-toggle="tooltip" title="{{ item.tittle }} project"
-                        data-pdf="/{{ item.url }}"
-                        data-bs-toggle="modal" data-bs-target="#auxModal"
-                        ></i>
-                    </div>
-                {% endfor %}
-            </div>
-        </div>   
-         
-        <nav class="navbar navbar-expand-lg">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="/">Home</a>
-                <a class="nav-item nav-link" href="https://github.com/Steeltitansax" target="_blank" >Github</a>
-                <a class="nav-item nav-link" href="https://www.linkedin.com/in/manuel-portero-leiva-50b429265" target="_blank">Linkedin</a>
-                <a class="nav-item nav-link" href="/about">About</a>
-            </div>
-        </nav>
+    <div class="standard-layout">
+        <div class="left-navbar mt-2">
         
-       
-    </div>
-    
-    <div class="right-body">
-        {% block content %}
-        {% endblock %}
-    </div>
-
-    <!-- Modal html-->
-    <div class="modal fade" id="auxModal" tabindex="-1" aria-labelledby="auxModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-            <div class="modal-header">
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <img src="{% static 'img/perfil.jpeg' %}" class="profile-image" alt="profile-image">
+            <div>
+                <h1 class="title">Manuel Portero</h1>
+                <h5 class="subtitle">Software Developer / Industrial Engineer</h5>
+                <p class="text-body">Well educated <span class="text-body-primary">Software developer</span> and <span class="text-body-primary">Industrial Engineer</span>. An <span class="text-body-primary">analytical</span>, good <span class="text-body-primary"> problem solver</span> and effective professional.
+                Good <span class="text-body-primary">communicative education</span> with people who do not have a scientific or engineering background.
+                </p>
             </div>
-            <div class="modal-body">
-            <iframe id="pdfViewer" src="" width="100%" height="800px"></iframe>
+
+            <h4 class="text-center mt-2 mb-3 portfolio-title"><bold>Portfolios</bold></h4>
+            <div class="experience-section container bg-white p-3 rounded">
+                <div class="row">
+                    {% for item in sections.portfolios.portfolios %}
+                        <div class="col-md-3 text-center">
+                            <a href="/{{ item.url }}"><img class="navbar-icons" data-bs-toggle="tooltip" title="{{ item.tooltip }}" src="{% static '' %}{{ item.image }}" /></a>
+                        </div>
+                    {% endfor %}                
+                </div>
+            </div>    
+
+        <div class="curriculum-block">
+
+            <h4 class="text-center mb-3 mt-3 curriculum-title">Curriculum Vitae</h4>
+            <div class="experience-section container bg-white p-3 mt-2 rounded">
+                <div class="row">
+                    {% for item in sections.curriculum.curriculum %}
+                        <div class="col-md-3 text-center">
+                            <img class="navbar-icons curriculum-icon" 
+                                data-bs-toggle="tooltip" 
+                                title="{{ item.tooltip }}" 
+                                src="{% static item.image %}" 
+                                data-pdf="{% if item.pdf|slice:":4" == "http" %}{{ item.pdf }}{% else %}/{{ item.pdf }}{% endif %}" 
+                                data-bs-toggle="modal" data-bs-target="#auxModal"/>
+                        </div>
+                    {% endfor %}    
+
+                </div>
             </div>
         </div>
+
+            <h4 class="text-center mt-3 mb-3">Education</h4>
+            <div class="education-section container bg-white pt-4 pb-4 rounded">
+                <div class="row">
+                    {% for item in sections.education.education %}
+                        <div class="col-md-2 text-center mb-3">
+                            <i class="{{ item.icon }} education-icon"
+                            data-bs-toggle="tooltip" title="{{ item.tittle }} project"
+                            data-pdf="/{{ item.url }}"
+                            data-bs-toggle="modal" data-bs-target="#auxModal"
+                            ></i>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>    
+
+            
+            <nav class="navbar navbar-expand-lg">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="/">Home</a>
+                    <a class="nav-item nav-link" href="https://github.com/Steeltitansax" target="_blank" >Github</a>
+                    <a class="nav-item nav-link" href="https://www.linkedin.com/in/manuel-portero-leiva-50b429265" target="_blank">Linkedin</a>
+                    <a class="nav-item nav-link" href="/about">About</a>
+                </div>
+            </nav>
+            
+        
+        </div>
+        
+        <div class="right-body">
+            {% block content %}
+            {% endblock %}
+        </div>
+
+        <!-- Modal html-->
+        <div class="modal fade" id="auxModal" tabindex="-1" aria-labelledby="auxModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                <iframe id="pdfViewer" src="" width="100%" height="800px"></iframe>
+                </div>
+            </div>
+            </div>
         </div>
     </div>
-
     
   
     <!-- Bootstrap JS (debe ir antes de tu script personalizado) -->
