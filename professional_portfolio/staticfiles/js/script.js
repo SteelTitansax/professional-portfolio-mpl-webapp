@@ -8,7 +8,14 @@ document.addEventListener("DOMContentLoaded", function () {
     // Mostrar PDF o Video en modal
     function showModal(event) {
         const contentUrl = this.getAttribute("data-pdf") || this.getAttribute("data-video");
-        const isVideo = contentUrl && contentUrl.endsWith(".mp4");
+
+        // Comprobar si la URL contiene "mpl-game-presentation" o si el archivo es PDF o MP4
+        if (!contentUrl || 
+            (!contentUrl.endsWith(".pdf") && !contentUrl.endsWith(".mp4") && !contentUrl.includes("mpl-game-presentation"))) {
+            return; // No hacer nada si no es ni PDF, ni MP4, ni contiene "mpl-game-presentation"
+        }
+
+        const isVideo = contentUrl.endsWith(".mp4");
 
         const modalContent = document.getElementById("modalContent");
         modalContent.innerHTML = "";
