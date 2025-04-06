@@ -33,7 +33,9 @@ def fullstack_portfolio(request):
         "education": load_json("education"),
         "fullstackExperience": load_json("fullstackExperience"),
         "fullstackSkills": load_json("fullstackSkills"),
-        "fullstackProjects": load_json("fullstackProjects")       
+        "fullstackProjects": load_json("fullstackProjects"),
+        "hobbies": load_json("hobbies"),
+        "skills": load_json("skills")      
     }
     return render(request, "fullstack_portfolio.html", {"sections": sections})
 
@@ -110,7 +112,9 @@ def rpa_portfolio(request):
         "education": load_json("education"),
         "rpaExperience": load_json("rpaExperience"),
         "rpaSkills": load_json("rpaSkills"),
-        "rpaProjects": load_json("rpaProjects")       
+        "rpaProjects": load_json("rpaProjects"),
+        "hobbies": load_json("hobbies"),
+        "skills": load_json("skills")             
     }
     return render(request, "rpa_portfolio.html", {"sections": sections})   
 
@@ -188,7 +192,9 @@ def machinelearning_portfolio(request):
         "education": load_json("education"),
         "machinelearningExperience": load_json("machinelearningExperience"),
         "machinelearningSkills": load_json("machinelearningSkills"),
-        "machinelearningProjects": load_json("machinelearningProjects")       
+        "machinelearningProjects": load_json("machinelearningProjects"),
+        "hobbies": load_json("hobbies"),
+        "skills": load_json("skills")      
     }
     return render(request, "machinelearning_portfolio.html", {"sections": sections})   
 
@@ -222,7 +228,9 @@ def industry40_portfolio(request):
         "education": load_json("education"),
         "industry40Experience": load_json("industry40Experience"),
         "industry40Skills": load_json("industry40Skills"),
-        "industry40Projects": load_json("industry40Projects")       
+        "industry40Projects": load_json("industry40Projects"),
+        "hobbies": load_json("hobbies"),
+        "skills": load_json("skills")             
     }
     return render(request, "industry40.html", {"sections": sections})   
 

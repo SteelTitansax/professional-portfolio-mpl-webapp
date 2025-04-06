@@ -111,7 +111,7 @@
                                 data-bs-toggle="tooltip" 
                                 title="{{ skill.tooltip }}" 
                                 src="{% static skill.image_path %}"
-                                data-pdf="{{ skill.url }}"
+                                data-pdf="/{{ skill.url }}"
                                 overflow-y: auto;          data-bs-toggle="modal" data-bs-target="#auxModal"/>
                         </div>
                     {% endfor %}                
@@ -145,7 +145,7 @@
                             data-bs-toggle="tooltip" 
                             title="{{ hobby.tooltip }}" 
                             src="{% static hobby.image_path %}"
-                            data-pdf="{{ hobby.url }}"
+                            data-pdf="/{{ hobby.url }}"
                             data-bs-toggle="modal" data-bs-target="#auxModal"/>
                     </div>
                     
