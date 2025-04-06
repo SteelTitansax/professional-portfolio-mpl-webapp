@@ -5,6 +5,19 @@ document.addEventListener("DOMContentLoaded", function () {
         new bootstrap.Tooltip(tooltipTriggerEl);
     });
 
+    // Función para activar el modo pantalla completa
+    function toggleFullScreen(video) {
+        if (video.requestFullscreen) {
+            video.requestFullscreen();
+        } else if (video.mozRequestFullScreen) { // Firefox
+            video.mozRequestFullScreen();
+        } else if (video.webkitRequestFullscreen) { // Chrome, Safari y Opera
+            video.webkitRequestFullscreen();
+        } else if (video.msRequestFullscreen) { // IE/Edge
+            video.msRequestFullscreen();
+        }
+    }
+
     // Mostrar PDF o Video en modal
     function showModal(event) {
         const contentUrl = this.getAttribute("data-pdf") || this.getAttribute("data-video");
@@ -33,6 +46,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 video.currentTime = 0;
                 video.play();
             });
+            
+            // Agregar evento para doble clic en el video (pantalla completa)
+            video.addEventListener("dblclick", function () {
+                toggleFullScreen(video);
+            });
+
             modalContent.appendChild(video);
         } else {
             const iframe = document.createElement("iframe");
