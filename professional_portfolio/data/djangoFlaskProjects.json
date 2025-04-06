@@ -9,9 +9,9 @@
 
             },{
                 "name": "CloudCherryTree",
-                "description":"Gestor Documental coded with Flask hosted with Azure App Services",
+                "description":"Gestor Documental coded with Flask hosted with Azure App Services (Demo no available)",
                 "image":"img/cloudCherryTree.png",
-                "url":"https://cloudcherrytree.azurewebsites.net/"
+                "url":"https://github.com/Steeltitansax/cloudcherrytree"
 
             },{
                 "name": "Django ToDo App",
