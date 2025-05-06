@@ -22,19 +22,19 @@
       "name": "Ecommerce App",
       "description": "Ecommerce App with React NodeJs and Express (Demo not available)",
       "image": "img/phoneCatallogue.jpg",
-      "url": "https://github.com/SteelTitansax/EcommerceReact"
+      "url": "https://github.com/SteelTitansax/ecommerceReact"
     },
     {
       "name": "React Native Chat",
       "description":"React Native Chat developed with HTML, CSS, Javascript, React Native and Firebase. (Demo not available)",
       "image":"img/chat.jpg",
-      "url":"https://github.com/SteelTitansax/ReactNativeChat"
+      "url":"https://github.com/SteelTitansax/reactNativeChat"
   },
   {
       "name": "React Native Agenda",
       "description":"Agenda app developed in HTML, CSS, JavaScript, React Native and Firebase (Demo not available)",
       "image":"img/agenda.jpg",
-      "url":"https://github.com/SteelTitansax/ReactNativeAgenda"
+      "url":"https://github.com/SteelTitansax/reactNativeAgenda"
       
   }
   ]

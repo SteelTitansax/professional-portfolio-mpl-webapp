@@ -341,6 +341,12 @@ body {
         padding-left: calc(var(--bs-gutter-x) * 0.999);
         margin-top: var(--bs-gutter-y);   
     }
+
+    .info-icon {
+        color: #ffffff;
+        font-size:30px;
+        padding-left: 46%;
+    }
 }
 
 /* Media queries para dispositivos aún más pequeños (max-width: 600px) */
@@ -377,5 +383,11 @@ body {
         padding-right: calc(var(--bs-gutter-x) * 0);
         padding-left: calc(var(--bs-gutter-x) * 0.999);
         margin-top: var(--bs-gutter-y);   
+    }
+
+    .info-icon {
+        color: #ffffff;
+        font-size:30px;
+        padding-left: 46%;
     }
 }
