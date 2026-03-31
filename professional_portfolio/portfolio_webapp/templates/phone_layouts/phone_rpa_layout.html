@@ -1,0 +1,79 @@
+{% load static %}
+
+
+<div class="phone-layout" style="overflow-y: auto;"> 
+        <div class="pt-2 pb-4 bg-black">
+
+            <img src="{% static 'img/perfil.jpeg' %}" class="profile-image" alt="profile-image">
+            <div>
+                <h1 class="title">Manuel Portero</h1>
+                <h5 class="subtitle">Software Developer / Industrial Engineer</h5>
+                <p class="text-body">Well-educated   <span class="text-body-primary">Software developer</span> and <span class="text-body-primary">Industrial Engineer</span>. <span class="text-body-primary">Analytical</span> and efficient <span class="text-body-primary"> problem solver</span> professional.
+                Strong <span class="text-body-primary">communication skills</span>  especially with non-technical audiences.
+                </p>
+            </div>
+
+            <h4 class="text-center mt-2 mb-3 portfolio-title text-white"><bold>Skills</bold></h4>
+            <div class="experience-section container bg-white p-3 rounded" >
+                <div class="row">
+
+                    {% for project in sections.rpaPhoneProjects.projects %}
+                    
+                    <div class="col-md-4 text-center mb-4 mt-4">
+                           <img class="navbar-icons project-image" 
+                                data-bs-toggle="tooltip" 
+                                title="{{ project.name }} - {{ project.description }}" 
+                                src="{% static project.image %}"
+                                data-pdf="{{ project.url }}"
+                                data-bs-toggle="modal" data-bs-target="#auxModal"/>
+                    </div>
+                    
+                    {% endfor %}
+
+                </div>                                                                                                                                                              
+            </div>   
+
+            <h4 class="text-center mt-3 mb-3 text-white">Education</h4>
+            <div class="education-section container bg-white pt-4 pb-4 rounded">
+                <div class="row">
+                    {% for item in sections.education.education %}
+                        <div class="col-md-3 text-center mb-3">
+                            <i class="{{ item.icon }} education-icon"
+                            data-bs-toggle="tooltip" title="{{ item.tittle }} project"
+                            {% if item.url|slice:"-4:" == ".mp4" %}
+                                data-pdf="{{ item.url }}"
+                            {% else %}
+                                data-pdf="/{{ item.url }}"
+                            {% endif %}
+                            data-bs-toggle="modal" 
+                            data-bs-target="#auxModal"
+                            ></i>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>    
+
+                        
+            <h4 class="text-center mb-2 mt-2 text-white"><bold>Portfolios</bold></h4>
+            <div class="education-section container bg-white rounded mt-3 mb-3">
+                <div class="row">
+
+                    {% for item in sections.portfolios.portfolios %}
+                        {% if not forloop.first %}
+                            <div class="col-md-3 text-center mb-2 mt-2">
+                                <a href="/{{ item.url }}"><img class="navbar-icons" data-bs-toggle="tooltip" title="{{ item.tooltip }}" src="{% static '' %}{{ item.image }}" /></a>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>   
+
+            <p class="text-center text-white" style="font-size: small;">Check the tablet / laptop version for extended information</p>
+            <nav class="navbar navbar-expand-lg ">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="https://www.linkedin.com/in/manuel-portero-leiva-50b429265" target="_blank">Linkedin</a>
+                </div>
+            </nav>
+        </div>
+
+    </div>

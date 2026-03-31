@@ -40,7 +40,7 @@
                 data-bs-toggle="tooltip" 
                 title="{{ project.name }} - {{ project.description }}" 
                 src="{% static project.image %}"
-                data-pdf="{% static project.url %}"
+                data-pdf="{{ project.url }}"
                 data-bs-toggle="modal" data-bs-target="#auxModal"/>
             {% else %}
             <a href="{{ project.url }}">
@@ -55,5 +55,7 @@
 
     </div>
 </div>   
+
+
 
 {% endblock %}

@@ -35,9 +35,9 @@
 
         {% for project in sections.rpaProjects.projects %}
         
-        <div class="col-md-4 text-center mb-4 mt-4">
+        <div class="col-md-4 text-center mb-2 mt-2">
             <a href="{{ project.url }}">
-                <img class="navbar-icons project-icon" 
+                <img class="navbar-icons project-icon p-3" 
                     data-bs-toggle="tooltip" 
                     title="{{ project.name }} - {{ project.description }}" 
                     src="{% static project.image %}"
@@ -50,5 +50,7 @@
 
     </div>
 </div>   
+
+
 
 {% endblock %}
