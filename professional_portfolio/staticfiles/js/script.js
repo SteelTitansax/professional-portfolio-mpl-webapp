@@ -38,9 +38,9 @@ document.addEventListener("DOMContentLoaded", function () {
             video.src = contentUrl;
             video.id = "myVideo";
             video.style.width = "100%";
-            video.style.maxHeight = "800px";
+            video.style.maxHeight = "700px";
             video.style.cursor = "pointer";
-            video.setAttribute("muted", "");
+            video.muted = true;
             video.setAttribute("playsinline", "");
             video.addEventListener("click", function () {
                 video.currentTime = 0;
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const iframe = document.createElement("iframe");
             iframe.src = contentUrl;
             iframe.style.width = "100%";
-            iframe.style.height = "800px";
+            iframe.style.height = "700px";
             iframe.setAttribute("frameborder", "0");
             modalContent.appendChild(iframe);
         }
@@ -110,4 +110,20 @@ document.addEventListener("DOMContentLoaded", function () {
     if (aboutTitle) {
         aboutTitle.appendChild(yearSpan);
     }
+
+
+    // Obtener la ruta actual
+    const isRoot = window.location.pathname === '/';
+
+    // Si es la raíz, ejecuta con timeout
+    if (isRoot) {
+	setTimeout(() => {
+ 	  document.body.removeAttribute('title');
+	}, 800);
+    } else {
+	// Si no es la raíz, elimina inmediatamente
+	document.body.removeAttribute('title');
+    }
+
 });
+
