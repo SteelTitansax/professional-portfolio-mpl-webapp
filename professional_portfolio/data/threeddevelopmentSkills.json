@@ -1,0 +1,25 @@
+{
+  "skills": [
+    {
+      "skill": "3D Modeling & Asset Creation",
+      "level": "Senior",
+      "icon": "fas fa-cube"
+    },
+    {
+      "skill": "Three.js Development",
+      "level": "Intermediate",
+      "icon": "fas fa-code"
+    },
+    {
+      "skill": "Unity Engine (C# Scripting)",
+      "level": "Intermediate",
+      "icon": "fas fa-gamepad"
+    },
+    {
+      "skill": "Rendering & Shader Optimization",
+      "level": "Intermediate",
+      "icon": "fas fa-magic"
+    }
+  ]
+}
+

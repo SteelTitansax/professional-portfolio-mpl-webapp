@@ -1,0 +1,28 @@
+{
+    "projects": [
+
+        {
+            "name": "SBR Reactor Simulation",
+            "description":"Check my SBR Reactor Simulation demo",
+            "image":"img/supervised.png",
+            "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/sbrSimulator.mp4",
+    	    "level":"high"
+        },
+        {
+            "name": "Python OpenAi Chatbot",
+            "description":"Python AzureOpenAi Chatbot (Django + GenAi)",
+            "image":"img/unsupervised.png",
+            "url":"https://mplportfoliostorage.blob.core.windows.net/mp4/openai_chatbot.mp4",
+	        "level":"high"
+        },
+        {
+            "name": "Python Multimedia converted chatbot",
+            "description":"Python TTS multimedia converter chatbot",
+            "image":"img/tts.png",
+            "url":"https://mplportfoliostorage.blob.core.windows.net/mp4/tts.mp4",
+	        "level":"high"
+        }
+
+    
+    ]
+}

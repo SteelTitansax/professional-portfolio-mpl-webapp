@@ -1,0 +1,31 @@
+{
+    "projects": [
+
+        {
+            "name": "Arduino - Weather Station",
+            "description":"Check the Weather station project of this portfolio",
+            "image":"img/arduino1.png",
+            "url":"https://mplportfoliostorage.blob.core.windows.net/mp4/arduino1.mp4"
+        },
+        {
+            "name": "Arduino - Proximity Sensor",
+            "description":"Check the Proximity sensor project of this portfolio",
+            "image":"img/arduino2.png",
+            "url":"https://mplportfoliostorage.blob.core.windows.net/mp4/arduino2.mp4"
+        },
+	{
+            "name":"Userland - Marea chatbot",
+            "description":"Check Marea chatbot project of this portfolio",
+            "image":"img/userland.png",
+            "url":"https://mplportfoliostorage.blob.core.windows.net/mp4/userland.mp4"
+        },
+        {
+            "name": "Termux - Weather tracking ( Demo not available )",
+            "description":"Check the weather tracking project of this portfolio",
+            "image":"img/termux.png",
+            "url":"/making"
+        }
+
+    
+    ]
+}

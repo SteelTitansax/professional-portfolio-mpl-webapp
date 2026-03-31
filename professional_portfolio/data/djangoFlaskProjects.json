@@ -5,24 +5,28 @@
                 "name": "RPA Launcher",
                 "description":"RPA Launche, React (front end) and Python Flask (back end)",
                 "image":"img/robotLauncher.png",
-                "url": "/mp4/robotLauncher.mp4"
+                "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/robotLauncher.mp4",
+		"level":"medium"
 
             },{
                 "name": "CloudCherryTree",
                 "description":"Gestor Documental coded with Flask hosted with Azure App Services (Demo no available)",
                 "image":"img/cloudCherryTree.png",
-                "url":"https://github.com/Steeltitansax/cloudCherryTree"
+                "url":"https://mplportfoliostorage.blob.core.windows.net/mp4/cloudCherryTree.mp4",
+		"level":"low"
 
             },{
                 "name": "Django ToDo App",
                 "description":"ToDo App coded in python using Django as framework",
                 "image":"img/todoDjango.png",
-                "url": "/mp4/todoDjango.mp4"
+                "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/todoDjango.mp4",
+		"level":"low"
             },{
                 "name": "Django Inventory App",
                 "description":"ToDo App coded in python using Django as framework",
                 "image":"img/inventoryDjango.png",
-                "url": "/mp4/inventoryDjango.mp4"
+                "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/inventoryDjango.mp4",
+		"level":"low"
             } 
 
     ]

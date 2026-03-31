@@ -4,18 +4,21 @@
             "name": "Energy Prediction",
             "description":"Energy model development and wrappers implementation",
             "image":"img/functions.jpg",
-            "url": "/mp4/energyPredictionModel.mp4"
+            "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/energyPredictionModel.mp4",
+	    "level":"medium"
         },
          {
             "name": "Medical Flask App",
             "description":"Medical Flask App (Linear Regression Model)",
             "image":"img/flask.jpeg",
-            "url":"https://github.com/SteelTitansax/FlaskAppML"
+            "url":"https://github.com/SteelTitansax/FlaskAppML",
+	    "level":"medium"
         }, {
             "name": "SBR Reactor Simulation",
             "description":"Check my SBR Reactor Simulation demo",
             "image":"img/SBR.png",
-            "url": "/mp4/sbrSimulator.mp4"
+            "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/sbrSimulator.mp4",
+	    "level":"high"
         } 
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "skills": [
+    {
+      "skill": "3D Modeling & Design",
+      "level": "Senior",
+      "icon": "fas fa-cube"
+    },
+    {
+      "skill": "Printer Calibration & Maintenance",
+      "level": "Intermediate",
+      "icon": "fas fa-tools"
+    },
+    {
+      "skill": "Material Science (PLA, ABS, Resin, etc.)",
+      "level": "Intermediate",
+      "icon": "fas fa-flask"
+    },
+    {
+      "skill": "Slicing Software (Cura, PrusaSlicer, etc.)",
+      "level": "Intermediate",
+      "icon": "fas fa-cut"
+    }
+  ]
+}
+

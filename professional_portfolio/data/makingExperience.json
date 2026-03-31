@@ -1,0 +1,9 @@
+{
+	"experiences": [
+		{
+		"title": "Making/Hardware Hacking",
+		"subtitle": "Hardware hacking is the modification of a device so it does something it wasn't designed to do. As a hobbyist, I enjoy tinkering with PCBs, microcontrollers (Arduino, ESP series) and single-board computers (Raspberry Pi) to build mods, add features, and experiment with new behaviors. I work on simple reverse engineering, low-level debugging, and rapid prototyping using Linux userland tools and mobile terminal environments like Termux.",
+		"date": ""
+		}
+	]
+}

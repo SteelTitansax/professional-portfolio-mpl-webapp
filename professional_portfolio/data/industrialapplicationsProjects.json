@@ -5,18 +5,27 @@
         "name": "Warehouse app",
         "description":"Check my Materials Management app demo",
         "image":"img/Warehouse.png",
-        "url": "/mp4/warehouseManagementApp.mp4"
+        "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/warehouseManagementApp.mp4",
+	"level":"medium"
     }
     , {
         "name": "Industrial Report App",
         "description":"Check my Industrial Report app demo",
         "image":"img/industrialreport.png",
-        "url": "/mp4/industrialReport.mp4"
+        "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/industrialReport.mp4",
+	"level":"medium"
         }, {
         "name": "Warehouse PowerBI Map",
         "description":"Check my Warehouse PowerBI Map demo",
         "image":"img/web.jpg",
-        "url": "/mp4/warehouseMapBI.mp4"
+        "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/warehouseMapBI.mp4",
+	"level":"medium"
+    }, {
+        "name": "Tank Designer Simulator",
+        "description":"Check my Tank designer app demo",
+        "image":"img/TankDesigner.png",
+        "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/tankDesigner.mp4",
+	    "level":"high"
     }
 
     ]

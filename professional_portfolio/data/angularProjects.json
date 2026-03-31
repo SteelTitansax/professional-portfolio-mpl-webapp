@@ -4,25 +4,29 @@
       "name": "Angular Todo App",
       "description": "Todo App developed with HTML ,CSS , Javascript and AngularJS(+3)",
       "image": "img/Todo-App.jpg",
-      "url": "https://todo-app-eta-seven.vercel.app/"
+      "url": "https://todo-app-eta-seven.vercel.app/",
+      "level": "low"
     },
     {
       "name": "Angular Weather App",
       "description": "Weather App coded in HTML ,CSS, JavaScript, Angular and OpenWeatherMap API",
       "image": "img/angular-weather-app.jpg",
-      "url": "https://angular-weather-app-green.vercel.app/"
+      "url": "https://angular-weather-app-green.vercel.app/",
+      "level":"low"
     },
     {
       "name": "Ionic Cronometer App",
       "description": "Cronometer App coded in HTML ,CSS, JavaScript and Ionic as a PWA framework",
       "image": "img/cronometer.jpg",
-      "url": "https://ionic2.vercel.app/"
+      "url": "https://ionic2.vercel.app/",
+      "level":"medium"
     },
     {
       "name": "Photo Gallery App",
       "description": "Photo Gallery App coded in HTML ,CSS, JavaScript and Ionic as a PWA framework",
       "image": "img/PhotoGallery.png",
-      "url": "https://photogallery-ochre.vercel.app/places"
+      "url": "https://photogallery-ochre.vercel.app/places",
+      "level":"medium"
     }
   ]
 }

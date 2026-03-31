@@ -4,37 +4,29 @@
       "name": "Moderngram",
       "description": "Social network developed in HTML, CSS, Javascript, React and Firebase as a Database.",
       "image": "img/moderngram.jpg",
-      "url": "https://moderngram.vercel.app/"
+      "url": "https://moderngram.vercel.app/",
+      "level":"low"
     },
     {
       "name": "Films Server",
       "description": "Films server front end coded in HTML, CSS, JavaScript, React and ThemovieDb API.",
       "image": "img/films-server.png",
-      "url": "https://films-server2.vercel.app/"
+      "url": "https://films-server2.vercel.app/",
+      "level":"medium"
     },
     {
       "name": "React Chat",
       "description": "React Chat coded with React NodeJs Express and Socket.io (Youtube demo)",
       "image": "img/ReactChat.png",
-      "url": "/mp4/reactChat.mp4"
+      "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/reactChat.mp4",
+      "level":"medium"
     },
-    {
-      "name": "Ecommerce App",
-      "description": "Ecommerce App with React NodeJs and Express (Demo not available)",
-      "image": "img/phoneCatallogue.jpg",
-      "url": "https://github.com/SteelTitansax/ecommerceReact"
-    },
-    {
-      "name": "React Native Chat",
-      "description":"React Native Chat developed with HTML, CSS, Javascript, React Native and Firebase. (Demo not available)",
-      "image":"img/chat.jpg",
-      "url":"https://github.com/SteelTitansax/reactNativeChat"
-  },
   {
-      "name": "React Native Agenda",
-      "description":"Agenda app developed in HTML, CSS, JavaScript, React Native and Firebase (Demo not available)",
+      "name": "React Native Meals App",
+      "description":"Meals  app developed in HTML, CSS, JavaScript and React Native",
       "image":"img/agenda.jpg",
-      "url":"https://github.com/SteelTitansax/reactNativeAgenda"
+      "url":"https://mplportfoliostorage.blob.core.windows.net/mp4/reactNativeMealsApp.mp4",
+      "level":"low"
       
   }
   ]

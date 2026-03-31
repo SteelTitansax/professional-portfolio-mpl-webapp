@@ -1,0 +1,22 @@
+{
+    "projects": [
+    {
+      "name": "NodeJS",
+      "description": "Please check out the nodeJS section of this portfolio",
+      "image": "img/nodejs.jpg",
+      "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/phoneCatallogue.mp4"
+    },
+    {
+      "name": "Flask/Django",
+      "description": "Please check out the Flask/Django app section of this portfolio",
+      "image": "img/flaskDjango.jpeg",
+      "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/tankDesigner.mp4"
+    },
+    {
+      "name": "PowerApps",
+      "description": "Please check out the PowerApps section of this portfolio",
+      "image": "img/canvas.png",
+      "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/warehouseApp.mp4"
+    }
+  ]
+}

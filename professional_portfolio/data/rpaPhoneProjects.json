@@ -1,0 +1,20 @@
+{
+    "projects": [
+        {
+            "name": "Scripting/Cloud Development",
+            "description":"Please check out the Scripting/Cloud Development section of this portfolio",
+            "image":"img/scripting.jpg",
+            "url":"https://mplportfoliostorage.blob.core.windows.net/mp4/approvalsFunction.mp4"
+        }, {
+            "name": "PowerAutomate",
+            "description":"Please check out the PowerAutomate section of this portfolio",
+            "image":"img/powerautomate.jpg",
+            "url":"https://mplportfoliostorage.blob.core.windows.net/mp4/powerAutomateMinuteAutomation.mp4"
+        },  {
+            "name": "UiPath",
+            "description":"Please check out the UiPath section of this portfolio",
+            "image":"img/uipath.jpg",
+            "url":"https://mplportfoliostorage.blob.core.windows.net/mp4/RPA0009OutlookWeekendBlocker.mp4"
+        }
+  ]
+}

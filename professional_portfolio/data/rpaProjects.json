@@ -26,10 +26,10 @@
             "image":"img/uipath.jpg",
             "url":"/uipath"
         },  {
-            "name": "Virtual Agents",
+            "name": "Chatbos and Agents",
             "description":"Please check our the Virtual Agents section of this portfolio",
-            "image":"img/virtualagents.jpg",
-            "url":"/virtual-agents"
+            "image":"img/chatbots.jpg",
+            "url":"/chatbots"
         }
   ]
 }

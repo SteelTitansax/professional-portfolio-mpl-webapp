@@ -5,19 +5,20 @@
             "name": "Industrial Applications",
             "description":"Please check the industrial applications section of this PortFolio",
             "image":"img/Industry40apps.png",
-            "url":"/industrialapplications"
+            "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/industrialReport.mp4"
         },
         {
             "name": "Industrial Simulations",
             "description":"Please check the industrial simulations section of this PortFolio",
             "image":"img/Industry40simulations.png",
-            "url":"/industrialsimulations"
+            "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/bubbleColumnSimulator.mp4"
         },
         {
             "name": "3d Development ",
             "description":"Please check the 3d dimension developments section of this PortFolio",
             "image":"img/3d_development.jpg",
-            "url":"/threejs"
+            "url":"https://mplportfoliostorage.blob.core.windows.net/mp4/air_separation_process.mp4"
+
         }
 
     

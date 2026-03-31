@@ -4,19 +4,22 @@
       "name": "Node Social network ",
       "description": "Social network coded with React NodeJs Express and MongoDB ",
       "image": "img/imgshare.png",
-      "url": "/mp4/instaManuel.mp4"
+      "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/instaManuel.mp4",
+      "level":"medium"
     },
     {
       "name": "Phone Catallogue ",
       "description": "Phone Catallogue, project coded with React NodeJs and Express ",
       "image": "img/phoneCatallogue.jpg",
-      "url": "/mp4/phoneCatallogue.mp4"
+      "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/phoneCatallogue.mp4",
+      "level":"medium"
     },
     {
       "name": "Onboarder(SPFX solution)",
       "description": "Onboarder automation using SPFX and PowerAutomate ",
       "image": "img/AD.png",
-      "url": "/mp4/onboarder.mp4"
+      "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/onboarder.mp4",
+      "level":"medium"
     }
   ]
 }

@@ -4,13 +4,31 @@
             "name": "Snake ML",
             "description":"IQModel implemented in ML snake",
             "image":"img/Snake.png",
-            "url": "/mp4/snakeML.mp4"
+            "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/snakeML.mp4",
+	    "level":"low"
+        },
+        {
+            "name": "Python OpenAi Chatbot",
+            "description":"Python AzureOpenAi Chatbot (Django + GenAi)",
+            "image":"img/open-ai.jpg",
+            "url":"https://mplportfoliostorage.blob.core.windows.net/mp4/openai_chatbot.mp4",
+	    "level":"high"
         },
          {
-            "name": "Python OpenAi Chatbot",
-            "description":"Python AzureOpenAi Chatbot (Django + GenAi) (No demo)",
-            "image":"img/python.jpg",
-            "url":"/mp4/openai_chatbot.mp4"
+            "name": "Python Mitral Chatbot",
+            "description":"Python Mistral Chatbot ",
+            "image":"img/mistral.png",
+            "url":"https://mplportfoliostorage.blob.core.windows.net/mp4/marea.mp4",
+	    "level":"high"
+        },
+        {
+            "name": "Python Multimedia converted chatbot",
+            "description":"Python TTS multimedia converter chatbot",
+            "image":"img/tts.png",
+            "url":"https://mplportfoliostorage.blob.core.windows.net/mp4/tts.mp4",
+	        "level":"high"
         }
+
+
   ]
 }

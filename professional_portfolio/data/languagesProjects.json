@@ -1,0 +1,42 @@
+{                   
+  "projects": [
+    {
+      "name": "Spanish",
+      "description": "Native Level",
+      "image": "img/spanish-flag.png",
+      "url": "/languages"                   
+    },
+    {
+      "name": "English",
+      "description": "Native Level",
+      "image": "img/british-flag.png",
+      "url": "/languages"
+    },
+    {
+      "name": "French",
+      "description": "Medium Level",
+      "image": "img/french-flag.png",
+      "url": "/languages"
+    },
+    {
+      "name": "Italian",
+      "description": "Medium Level",
+      "image": "img/italian-flag.png",
+      "url": "/languages"
+    },
+    {
+      "name": "Catalan",
+      "description": "Native Level",
+      "image": "img/catalan-flag.png",
+      "url": "/languages"
+    },
+    {
+      "name": "German",
+      "description": "Basic Level (Learning)",
+      "image": "img/german-flag.png",
+      "url": "/languages"
+    }
+
+  ]
+}
+

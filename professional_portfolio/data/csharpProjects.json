@@ -4,25 +4,22 @@
       "name": "Walks API",
       "description": "NZ Walks C# Api secured with JWT (only code available)",
       "image": "img/apiCsharp.png",
-      "url": "https://github.com/SteelTitansax/cSharpNzWalksApi" 
-    },
-    {
-      "name": "MVC C# App",
-      "description": "Running Club C# App following the MVC pattern (only code available)",
-      "image": "img/mvc.png",
-      "url": "https://github.com/SteelTitansax/runningClubAlbumDotNet"
+      "url": "https://github.com/SteelTitansax/cSharpNzWalksApi",
+      "level":"low" 
     },
     {
       "name": "React + C# App",
       "description": "Hotel Booking App following the DDD pattern (only code available)",
       "image": "img/mvc.png",
-      "url": "https://github.com/SteelTitansax/cSharpApi/tree/main/Backend"
+      "url": "https://github.com/SteelTitansax/cSharpApi/tree/main/Backend",
+      "level":"medium"
     },
     {
       "name": "Blazor / .NET App",
       "description": "Hotel Booking App following the MVC pattern with blazor",
       "image": "img/blazor.png",
-      "url": "/mp4/billingApp.mp4"
+      "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/billingApp.mp4",
+      "level":"medium"
     }
   ]
 }

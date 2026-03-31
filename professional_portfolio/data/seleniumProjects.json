@@ -3,13 +3,15 @@
         {
             "name": "Web testing 1",
             "description":"Check my Selenium test robot",
-            "image":"img/selenium.jpg",
-            "url": "/mp4/selenium1.mp4"
+            "image":"img/robotLauncher.png",
+            "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/selenium1.mp4",
+	    "level":"low"
         }, {
             "name": "Web testing 2",
             "description":"Check my Selenium test robot (code not available)",
-            "image":"img/selenium.jpg",
-            "url": "/mp4/selenium2.mp4"
+            "image":"img/robotLauncher.png",
+            "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/selenium2.mp4",
+	    "level":"low"
         }
   ]
 }

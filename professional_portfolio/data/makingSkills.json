@@ -1,0 +1,43 @@
+{
+"skills": [
+	{
+	"skill": "Arduino / ESP Development",
+	"level": "Advanced",
+	"icon": "fas fa-microchip"
+	},
+	{
+	"skill": "Raspberry Pi (SBC) Integration",
+	"level": "Advanced",
+	"icon": "fab fa-raspberry-pi"
+	},
+	{
+	"skill": "Linux Userland & Termux",
+	"level": "Advanced",
+	"icon": "fas fa-terminal"
+	},
+	{
+	"skill": "Soldering & Hands-on Assembly",
+	"level": "Advanced",
+	"icon": "fas fa-screwdriver-wrench"
+	},
+	{
+	"skill": "Oscilloscopes & Logic Analyzers",
+	"level": "Intermediate",
+	"icon": "fas fa-wave-square"
+	},
+	{
+	"skill": "Rapid prototyping (breadboards, perfboard, hot glue)",
+	"level": "Advanced",
+	"icon": "fas fa-tools"
+	},
+	{
+	"skill": "Power management & measurement",
+	"level": "Intermediate",
+	"icon": "fas fa-battery-three-quarters"
+	},
+	{
+	"skill": "3D printing & mechanical mods for enclosures",
+	"level": "Intermediate",
+	"icon": "fas fa-cube"
+	}       ]
+} 

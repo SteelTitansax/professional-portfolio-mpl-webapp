@@ -3,44 +3,44 @@
     {
       "image_path": "img/javascript.png",
       "tooltip": "Check skill",
-      "url": "static/mp4/javaScript.mp4"
+      "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/javaScript.mp4"
     },
     {
       "image_path": "img/python_logo.png",
       "tooltip": "Check skill",
-      "url": "static/mp4/python.mp4"
+      "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/python.mp4"
     },
     {
       "image_path": "img/c_sharp.png",
       "tooltip": "Check skill",
-      "url": "static/mp4/cSharp.mp4"
+      "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/cSharp.mp4"
 
     },
     {
       "image_path": "img/power_platform_logo.png",
       "tooltip": "Check skill",
-      "url": "static/mp4/powerPlatform.mp4"
+      "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/powerPlatform.mp4"
     },
     {
       "image_path": "img/uipath_logo.jpeg",
       "tooltip": "Check skill",
-      "url": "static/mp4/uiPath.mp4"
+      "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/uiPath.mp4"
     },
     {
       "image_path": "img/azure_logo.png",
       "tooltip": "Check skill",
-      "url": "static/mp4/azure.mp4"
+      "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/azure.mp4"
 
     },
     {
       "image_path": "img/afunction_logo.png",
       "tooltip": "Check skill",
-      "url": "static/mp4/azureFunctions.mp4"
+      "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/azureFunctions.mp4"
     },
     {
       "image_path": "img/cognitive_services_logo.jpg",
       "tooltip": "Check skill",
-      "url": "static/mp4/cognitiveServices.mp4"
+      "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/cognitiveServices.mp4"
     }
   ]
 }

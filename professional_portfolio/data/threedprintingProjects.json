@@ -1,0 +1,18 @@
+{
+    "projects": [
+
+        {
+            "name": "Arduino case",
+            "description":"Check the arduino case demo of this portfolio",
+            "image":"img/arduino1.png",
+            "url":"https://mplportfoliostorage.blob.core.windows.net/mp4/arduino_case.mp4"
+        },
+        {
+            "name": "Raspberry Pi case",
+            "description":"Check the raspberry pi case of this portfolio (Demo not availale",
+            "image":"img/raspberrypi.png",
+            "url":"https://mplportfoliostorage.blob.core.windows.net/mp4/raspberry_case.mp4"
+        }
+    
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "projects": [
+
+        {
+            "name": "Three.js",
+            "description":"Check the three.js section of this portfolio (Not available yet)",
+            "image":"img/threejs.jpeg",
+            "url":"/threejs"
+        },
+        {
+            "name": "Unity",
+            "description":"Check the Unity section of this portfolio (Not available yet)",
+            "image":"img/unity.jpeg",
+            "url":"/threeddevelopment"
+        }
+    
+    ]
+}

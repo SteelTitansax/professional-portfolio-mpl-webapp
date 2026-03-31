@@ -1,0 +1,25 @@
+{
+    "skills": [
+      {
+        "skill": "Writing",
+        "level": "Fluent",
+        "icon": "fa fa-pencil"
+      },
+      {
+        "skill": "Speaking",
+        "level": "Fluent",
+        "icon": "fas fa-comments"
+      },
+      {
+        "skill": "Reading",
+        "level": "Fluent",
+        "icon": "fa fa-book"
+      },
+      {
+        "skill": "Listening",
+        "level": "Fluent",
+        "icon": "fas fa-headphones"
+      }
+    ]
+  }
+  

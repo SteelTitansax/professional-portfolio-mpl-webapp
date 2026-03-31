@@ -1,0 +1,35 @@
+{
+    "skills": [
+      {
+        "skill": "Virtual Agent Development",
+        "level": "Senior",
+        "icon": "fas fa-headset"
+      },
+      {
+        "skill": "Natural Language Processing (NLP)",
+        "level": "Intermediate",
+        "icon": "fas fa-comment-dots"
+      },
+      {
+        "skill": "Chatbot Integration",
+        "level": "Intermediate",
+        "icon": "fas fa-comments"
+      },
+      {
+        "skill": "Dialog Management",
+        "level": "Intermediate",
+        "icon": "fas fa-signal"
+      },
+      {
+        "skill": "AI/ML Integration",
+        "level": "Intermediate",
+        "icon": "fas fa-brain"
+      },
+      {
+        "skill": "Voice Recognition",
+        "level": "Intermediate",
+        "icon": "fas fa-microphone"
+      }
+    ]
+  }
+  

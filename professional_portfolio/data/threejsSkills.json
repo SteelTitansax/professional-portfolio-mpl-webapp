@@ -1,0 +1,24 @@
+{
+  "skills": [
+    {
+      "skill": "Three.js & WebGL Development",
+      "level": "Senior",
+      "icon": "fas fa-cube"
+    },
+    {
+      "skill": "Shaders (GLSL) & Material Creation",
+      "level": "Intermediate",
+      "icon": "fas fa-paint-brush"
+    },
+    {
+      "skill": "3D Scene Optimization & Rendering Pipelines",
+      "level": "Intermediate",
+      "icon": "fas fa-tachometer-alt"
+    },
+    {
+      "skill": "3D Asset Integration (Models, Textures, HDRI)",
+      "level": "Intermediate",
+      "icon": "fas fa-file-import"
+    }
+  ]
+}

@@ -3,26 +3,30 @@
         {
             "name": "MorningCheck",
             "description":"Check my powerAutomate automation",
-            "image":"img/powerautomatedesktop.jpg",
-            "url": "/mp4/PadMorningCheck.mp4"
+            "image":"img/morning-check.png",
+            "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/PadMorningCheck.mp4",
+    	    "level":"low"
         },
           {
             "name": "PdfExtraction",
             "description":"Check my powerAutomate automation",
-            "image":"img/powerautomatedesktop.jpg",
-            "url": "/mp4/PadPdfExtraction.mp4"
+            "image":"img/pdf.png",
+            "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/PadPdfExtraction.mp4",
+	        "level":"low"
         },
         {
             "name": "ExcelAutomation",
             "description":"Check my powerAutomate automation",
-            "image":"img/powerautomatedesktop.jpg",
-            "url": "/mp4/PadExcelAutomation.mp4"
+            "image":"img/office-scripts.png",	   
+            "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/PadExcelAutomation.mp4",
+	        "level":"low"
         },
         {
             "name": "PAD Framework",
             "description":"Check my PAD framework",
             "image":"img/powerautomatedesktop.jpg",
-            "url": "/mp4/PafDataRowFramework.mp4"
+            "url": "https://mplportfoliostorage.blob.core.windows.net/mp4/PafDataRowFramework.mp4",
+	        "level":"low"
         }
     ]
 }
